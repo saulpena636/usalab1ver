@@ -1,0 +1,759 @@
+.container1 {
+    width: 1728px;
+    height: 5340px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    opacity: 0;
+    overflow: hidden;
+    animation: aparecer 1s forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
+}
+
+.header {
+    width: 1728px;
+    height: 152px;
+    flex-shrink: 0;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoutm {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-left: -112px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    animation: logoutm 1s forwards;
+}
+
+@keyframes logoutm {
+    to {
+        margin-left: 112px;
+    }
+}
+
+.logousalab {
+    width: 136px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-right: -112px;
+    margin-top: 16px;
+    animation: logousalab 1s forwards;
+}
+
+@keyframes logousalab {
+    to {
+        margin-right: 112px;
+    }
+}
+
+.navbar1 {
+    width: 1728px;
+    height: 56px;
+    flex-shrink: 0;
+    background: #06052D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio {
+    display: flex;
+    width: 128px;
+    padding: 13.5px 30px;
+    margin-left: 81px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.inicio:hover {
+    background: #58A3C1;
+}
+
+.iniciotxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu1 {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.acercade {
+    display: flex;
+    width: 192px;
+    padding: 13.5px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.acercade:hover {
+    background: #58A3C1;
+}
+
+.acercadetxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.servicios {
+    display: flex;
+    width: 176px;
+    padding: 13.5px 33.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.servicios:hover {
+    background: #58A3C1;
+}
+
+.serviciostxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.serviciosCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.serviciosCont .drcontent {
+    color: #FFF;
+    width: 176px;
+    padding: 13.5px 18.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.comercialtxt {
+    width: 123px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.academicotxt {
+    width: 138px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Cambiar color de los enlaces al pasar el cursor */
+.serviciosCont .drcontent:hover {
+    background-color: #06052D;
+}
+
+.servicios:hover .serviciosCont {
+    display: flex;
+    flex-direction: column
+}
+
+.eventos {
+    display: flex;
+    width: 168px;
+    padding: 13.5px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.eventos:hover {
+    background: #58A3C1;
+}
+
+.eventostxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.idioma {
+    display: inline-flex;
+    padding: 13.5px 10px;
+    align-items: center;
+    gap: 4px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.idioma:hover {
+    background: #58A3C1;
+}
+
+.idiomatxt {
+    display: flex;
+    width: 50px;
+    height: 29px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.separador {
+    height: 56px;
+    width: 100%;
+}
+
+/*********************************************************principal****************************************************************/
+.titulousalab {
+    display: flex;
+    width: 1152px;
+    height: 68px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+
+}
+
+.contenidousalab {
+    width: 1728px;
+    height: 248px;
+    display: flex;
+    margin-bottom: -40px;
+    margin-left: -260px;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidousalabtxt {
+    width: 1392px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #FFFCFC;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: 0.32px;
+}
+
+.separador2 {
+    height: 160px;
+    width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    width: 440px;
+    height: 664px;
+    flex-direction: column;
+    align-items: center;
+    gap: 273px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Small, 8px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 1.0s ease;
+}
+
+.card-figure svg {
+    width: 448px;
+    height: 290px;
+    flex-shrink: 0;
+    opacity: 0.90;
+    /* width: 100%;
+    height: 100%; */
+    color: #A4C732;
+    transition: color 1.0s ease;
+}
+
+.card:hover .card-figure svg {
+    color: #4F9EBE;
+}
+
+.title-card {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-button {
+    flex-shrink: 0;
+    border-radius: var(--Corner-Full, 1000px);
+    border: 0.5px solid #FFF;
+    z-index: 1;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 280.638px;
+    height: 60px;
+    background: #121238;
+    font-size: 20px;
+    color: #FFF;
+    transition: width 1.0s, height 1.0s, background-color 1.0s ease, color 1.0s ease, font-size 1.0s ease;
+}
+
+.card:hover .card-button {
+    width: 308.7px;
+    height: 66px;
+    background: #FFF;
+    color: #06052D;
+    font-size: 24px;
+}
+
+#nuestros-servicios-card {
+    background: url("assets/nuestros-servicios.png") lightgray 50% / cover no-repeat;
+}
+
+#nuestros-servicios-title {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+    top: 56px;
+}
+
+#nosotros-card {
+    background: url("assets/nosotros.png") lightgray 50% / cover no-repeat;
+}
+
+#nosotros-title {
+    display: flex;
+    width: 235.2px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 105.891px;
+    top: 77px;
+}
+
+#investigacion-card {
+    background: url("assets/investigacion.png") lightgray 50% / cover no-repeat;
+}
+
+#investigacion-title {
+    display: flex;
+    width: 280px;
+    height: 48px;
+    justify-content: center;
+    position: absolute;
+    left: 80px;
+    top: 88px;
+}
+
+.fondo-azul {
+    width: 1728px;
+    height: 912px;
+    flex-shrink: 0;
+    background: #58A3C1;
+    margin-top: -400px;
+}
+
+.ultimoseventostxt {
+    color: #FFF;
+    width: 246px;
+    margin-top: -159px;
+    margin-left: 273px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.eventosContainer {
+    width: 1010px;
+    height: 520px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-left: 712px;
+    margin-top: -327px;
+    display: flex;
+    gap: 24px;
+}
+
+.eventosContainer::-webkit-scrollbar {
+    display: none;
+    /* Oculta la barra deslizante en Chrome, Safari y Edge */
+}
+
+.scroll-container {
+    display: inline-block;
+}
+
+.event-card {
+    display: flex;
+    width: 392px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Medium, 12px);
+    background: rgba(94, 159, 186, 0.20);
+    justify-content: center;
+}
+
+.title-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.text-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.content-event-card {
+    width: 328px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+#event1 {
+    margin-top: 355px;
+}
+
+#event2 {
+    margin-top: 296px;
+}
+
+#event3 {
+    margin-top: 352px;
+}
+
+#event1-card {
+    background: url("assets/hci.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event2-card {
+    background: url("assets/chi1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event3-card {
+    background: url("assets/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+.desarrollocomercial {
+    margin-top: 160px;
+    width: 1728px;
+    height: 544px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background: #06052D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desarrollocomercial:hover .card-button {
+    width: 308.7px;
+    height: 66px;
+    background: #FFF;
+    color: #06052D;
+    font-size: 24px;
+}
+
+.imagenmundo1 {
+    width: 1728px;
+    height: 544px;
+    opacity: 0.5;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.desarrollotitulo {
+    display: flex;
+    height: 48px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FBFAF4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -464px;
+    line-height: normal;
+}
+
+.desarrollocontenido {
+    width: 1264px;
+    height: 112px;
+    flex-shrink: 0;
+    color: #FFFFFE;
+    text-align: justify;
+    margin-top: 80px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+.separador3 {
+    height: 104px;
+    width: 100%;
+}
+
+.clientesdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes-title {
+    width: 240px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.separador4 {
+    height: 120px;
+    width: 100%;
+}
+
+.clientesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes-container {
+    width: 1697px;
+    height: 488px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/clientes-1.png);
+    background-size: auto 100%;
+    animation: move 35s linear infinite;
+}
+
+@keyframes move {
+    to {
+        background-position: 4998px;
+    }
+}
+
+.hablanosContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hablanos {
+    display: flex;
+    width: 1185px;
+    height: 360px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
+}
+
+.hablanos-title {
+    width: 707px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #06052D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hablanos-text {
+    width: 1185px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hablanos-button {
+    width: 272px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Full, 1000px);
+    background: #06052D;
+    display: flex;
+    /* width: 176px;
+    height: 32px; */
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: width 1.0s ease, height 1.0s ease, font-size 1.0s ease;
+}
+
+.hablanos:hover .hablanos-button {
+    width: 308.7px;
+    height: 66px;
+    font-size: 36px;
+}
+
+.separador5 {
+    height: 80px;
+    width: 100%;
+}
+.lineContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 1418px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: rgba(191, 191, 191, 0.20);
+}
+
+
+/********************************************************footer**************************************************************/
+/* footer {
+    width: 1728px;
+    height: 580px;
+
+    flex-shrink: 0;
+    opacity: 0.95;
+    background: #06052D;
+} */
+
+footer {
+    width: 1728px;
+    height: 580px;
+    flex-shrink: 0;
+    opacity: 0.95;
+    background: #06052D;
+}
