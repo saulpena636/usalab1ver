@@ -388,7 +388,7 @@
 }
 
 #nuestros-servicios-card {
-    background: url("assets/nuestros-servicios.png") lightgray 50% / cover no-repeat;
+    background: url("../photos/nuestros-servicios.png") lightgray 50% / cover no-repeat;
 }
 
 #nuestros-servicios-title {
@@ -403,7 +403,7 @@
 }
 
 #nosotros-card {
-    background: url("assets/nosotros.png") lightgray 50% / cover no-repeat;
+    background: url("../photos/nosotros.png") lightgray 50% / cover no-repeat;
 }
 
 #nosotros-title {
@@ -418,7 +418,7 @@
 }
 
 #investigacion-card {
-    background: url("assets/investigacion.png") lightgray 50% / cover no-repeat;
+    background: url("../photos/investigacion.png") lightgray 50% / cover no-repeat;
 }
 
 #investigacion-title {
@@ -523,15 +523,15 @@
 }
 
 #event1-card {
-    background: url("assets/hci.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+    background: url("../photos/hci.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
 }
 
 #event2-card {
-    background: url("assets/chi1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+    background: url("../photos/chi1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
 }
 
 #event3-card {
-    background: url("assets/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+    background: url("../photos/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
 }
 
 .desarrollocomercial {
@@ -638,7 +638,7 @@
 .img-wrapper {
     width: 100%;
     height: 100%;
-    background-image: url(assets/clientes-1.png);
+    background-image: url(../img/clientes-1.png);
     background-size: auto 100%;
     animation: move 35s linear infinite;
 }
