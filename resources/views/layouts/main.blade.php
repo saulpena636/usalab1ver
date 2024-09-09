@@ -131,12 +131,33 @@
     </main>
 
     <footer>
-      <img class="utmfooter" src="{{ asset('img/Logo-UTM-1.png') }}" />
-      <img class="usalabfooter" src="{{ asset('img/logo Usalab 3-03 1.png') }}" />
-      <div class="footertxt">+52 953 532 0399<br/><br/>Av. Doctor Modesto Seara Vázquez #1, Acatlima, 69000 Heroica Cdad. de Huajuapan de León, Oax. Mexico<br/><br/></div>
-      <div class="logoslink">
-        <img class="facebook" src="{{ asset('icons/mdi_facebook.svg') }}" />
-        <img class="link12" src="{{ asset('icons/ic_round-link.svg') }}" />
+      <div class="footerinformacion">
+        <div class="logosfooter">
+        <img class="utmfooter" src="{{ asset('img/Logo-UTM-1.png') }}" />
+        <img class="usalabfooter" src="{{ asset('img/logo Usalab 3-03 1.png') }}" />
+        </div>
+        <div class="sf1"></div>
+        <div class="footertxt">+52 953 532 0399<br/><br/>Av. Doctor Modesto Seara Vázquez #1, Acatlima, 69000 Heroica Cdad. de Huajuapan de León, Oax. Mexico<br/><br/></div>
+        <div class="sf2"></div>
+        <div class="logoslink">
+          <img class="facebook" src="{{ asset('icons/mdi_facebook.svg') }}" />
+          <img class="link12" src="{{ asset('icons/ic_round-link.svg') }}" />
+        </div>
+      </div>
+
+      <div class="footermenu">
+      <div class="menurapido">
+        <p class="menurapidotxt">&lt;Menú rápido&gt;</p>
+        <br>
+        <br>
+        <div class="footeroptions">
+          <p class="optiontxt">Inicio</p>
+          <p class="optiontxt">Acerca de</p>
+          <p class="optiontxt">Comercial</p>
+          <p class="optiontxt">Academico</p>
+          <p class="optiontxt">Eventos</p>
+          </div>
+      </div>
       </div>
     </footer>
 

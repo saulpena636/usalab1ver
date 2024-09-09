@@ -365,7 +365,21 @@ footer {
     overflow: hidden;
 }
 
-.utmfooter{
+.footerinformacion {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    align-items: flex-start;
+    margin-left: 194px;
+    justify-content: center;
+}
+
+.logosfooter {
+    display: flex;
+    gap: 90px;
+}
+
+.utmfooter {
     width: 147px;
     height: 147px;
     object-fit: cover;
@@ -373,21 +387,78 @@ footer {
     object-position: 50% 68%;
 }
 
-.usalabfooter{
+.usalabfooter {
     width: 156px;
-height: 149px;
-flex-shrink: 0;
-object-fit: cover;
-transform: scale(1.4);
-filter: brightness(0) invert(1);
+    height: 149px;
+    flex-shrink: 0;
+    object-fit: cover;
+    transform: scale(1.4);
+    filter: brightness(0) invert(1);
+}
+
+.sf1 {
+    width: 100%;
+    height: 45px;
 }
 
 .footertxt {
     width: 504px;
     height: 120px;
-    color: white;
-    font-size: 20px;
+    color: #FFF;
     font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 500;
-    word-wrap: break-word
+    line-height: normal;
+}
+
+.sf2 {
+    width: 100%;
+    height: 24px;
+}
+
+.logoslink {
+    display: flex;
+    gap: 40px;
+}
+
+.footermenu{
+    width: 1032px;
+    height: 100%;
+}
+
+.menurapido{
+    margin-top: 56px;
+    margin-left: 65px;
+}
+
+.menurapidotxt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footeroptions {
+    display: flex;
+    gap: 40px;
+}
+
+.optiontxt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.optiontxt:hover::before {
+    content: "<";
+}
+
+.optiontxt:hover::after {
+    content: ">";
 }
