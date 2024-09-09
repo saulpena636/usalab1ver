@@ -16,9 +16,9 @@
     }
 }
 
-.d-block w-100{
+.img1{
     background: rgba(0, 0, 0, 0.30);
-    opacity: 0.8;
+    filter: brightness(50%);
 }
 
 .titulousalabtxt {
@@ -544,6 +544,11 @@
 
 .separador5 {
     height: 80px;
+    width: 100%;
+}
+
+.separador6 {
+    height: 143.75px;
     width: 100%;
 }
 
