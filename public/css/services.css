@@ -320,6 +320,7 @@
 /* ACADEMIA */
 
 .academia-container {
+    position: relative;
     display: flex;
     width: 1728px;
     height: 536px;
@@ -328,9 +329,19 @@
     align-items: center;
     gap: 164.2px;
     flex-shrink: 0;
+    overflow: hidden;
+}
+
+.academia-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url("../img/academia.jpeg") lightgray 0px -789.919px / 100% 425.434% no-repeat;
-    /* background-blend-mode: normal; */
-    transition: background 0.3s ease;
+    transition: filter 1s ease;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
 }
 
 .academia-title {
@@ -369,16 +380,12 @@
     transition: width 1.0s, height 1.0s, background-color 1.0s ease, color 1.0s ease, font-size 1.0s ease;
 }
 
-.academia-container:hover {
-    background: url("../img/academia.jpeg") lightgray 0px -789.919px / 100% 425.434% no-repeat;
-}
-/* .academia-container:hover {
-    background: linear-gradient(to center, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0)), url("../img/academia.jpeg") lightgray 0px -789.919px / 100% 425.434% no-repeat;
-    background-blend-mode: darken;
-} */
-
-.academia-container:hover .mas-informacion-button {
-    width: 300px;
+    .academia-container:hover::before {
+        filter: brightness(0.75);
+    }
+    
+    .academia-container:hover .mas-informacion-button {
+        width: 300px;
     height: 80px;
     background: #FFF;
     color: #06052D;
