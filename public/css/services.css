@@ -1,0 +1,468 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1728px;
+    gap: 160px;
+}
+
+.service-card {
+    flex: 0 0 552px; /* Esto asegura que las tarjetas no se redimensionen */
+    height: 668px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Large, 16px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.service-card-figure svg {
+    color: rgba(79, 158, 190, 0.95);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title-service-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+
+.text-service-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+/* NUESTROS SERVICIOS */
+
+.nuestros-servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1728px;
+    height: 880px;
+    flex-shrink: 0;
+    background: url("../img/nuestros-servicios.png") lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nuestros-servicios-title {
+    display: flex;
+    width: 832px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 444px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 50% */
+    letter-spacing: 0.8px;
+}
+
+.nuestros-servicios-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 104px;
+    width: 1728px;
+    height: 244px;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+}
+
+.nuestros-servicios-text {
+    width: 1392px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #FBF6F6;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    letter-spacing: 0.32px;
+}
+
+/* FORMACIÓN */
+
+.formacion-container {
+    display: grid;
+    width: 1728px;
+    height: 828px;
+}
+
+.formacion-title {
+    justify-self: center;
+    width: 663px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.formacion-cards-container {
+    display: flex;
+    justify-self: right;
+    margin-top: 80px;
+    width: 1560px;
+    height: 688px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 64px;
+}
+
+.formacion-cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+#estudios-card {
+    background: url("../img/formacion-estudios.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#estudios-card-content {
+    width: 440px;
+    height: 258px;
+    position: absolute;
+    left: 51px;
+    top: 45px;
+}
+
+#consultoria-card {
+    background: url("../img/formacion-consultoria.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#consultoria-card-content {
+    width: 456px;
+    height: 136px;
+    position: absolute;
+    left: 48px;
+    top: 72px;
+}
+
+#capacitacion-card {
+    background: url("../img/formacion-capacitacion.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#capacitacion-card-content {
+    width: 455px;
+    height: 208px;
+    position: absolute;
+    left: 48px;
+    top: 32px;
+}
+
+.formacion-line {
+    justify-self: center;
+    margin-top: 23px;
+    width: 1337px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #ECECEC;
+}
+
+/* DESARROLLO COMERCIAL */
+
+.desarrollo-comercial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1728px;
+    height: 616px;
+    flex-shrink: 0;
+    background: #06052D url("../img/desarrollo-comercial.png") 50% / cover no-repeat;    
+}
+
+.desarrollo-comercial-title {
+    width: 608px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #FCFEF9;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    margin-top: 80px;
+}
+
+.desarrollo-comercial-text {
+    width: 1392px;
+    height: 317px;
+    flex-shrink: 0;
+    color: #FAFAF9;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-top: 82px;
+}
+
+/* INVESTIGACIÓN Y DESARROLLO */
+
+.investigacion-container {
+    display: grid;
+    width: 1728px;
+    height: 805px;
+}
+
+.investigacion-title {
+    justify-self: center;
+    width: 755px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.investigacion-cards-container {
+    display: flex;
+    justify-self: right;
+    margin-top: 80px;
+    width: 1560px;
+    height: 688px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 64px;
+}
+
+.investigacion-cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+#investigacion-card {
+    background: url("../img/investigacion-investigacion.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#investigacion-card-content {
+    width: 472px;
+    height: 216px;
+    position: absolute;
+    left: 40px;
+    top: 32px;
+}
+
+#desarrollo-card {
+    background: url("../img/investigacion-desarrollo.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#desarrollo-card-content {
+    width: 488px;
+    height: 216px;
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+#analisis-card {
+    background: url("../img/investigacion-analisis.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#analisis-card-content {
+    width: 489px;
+    height: 240px;
+    position: absolute;
+    left: 32px;
+    top: 24px;
+}
+
+#proyecto-card {
+    background: url("../img/investigacion-proyectos.png") lightgray 50% / cover no-repeat;
+    background-size: auto;
+}
+
+#proyecto-card-content {
+    width: 424px;
+    height: 168px;
+    position: absolute;
+    left: 64px;
+    top: 40px;
+}
+
+/* ACADEMIA */
+
+.academia-container {
+    position: relative;
+    display: flex;
+    width: 1728px;
+    height: 536px;
+    padding: 118px 640px;
+    flex-direction: column;
+    align-items: center;
+    gap: 164.2px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.academia-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/academia.jpeg") lightgray 0px -789.919px / 100% 425.434% no-repeat;
+    transition: filter 1s ease;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+.academia-title {
+    width: 448px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.mas-informacion-button {
+    flex-shrink: 0;
+    border-radius: var(--Corner-Full, 1000px);
+    border: 0.5px solid #FFF;
+    z-index: 1;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 280.64px;
+    height: 60px;
+    background: #121238;
+    font-size: 20px;
+    color: #FFF;
+    transition: width 1.0s, height 1.0s, background-color 1.0s ease, color 1.0s ease, font-size 1.0s ease;
+}
+
+    .academia-container:hover::before {
+        filter: brightness(0.75);
+    }
+    
+    .academia-container:hover .mas-informacion-button {
+        width: 300px;
+    height: 80px;
+    background: #FFF;
+    color: #06052D;
+    font-size: 24px;
+}
+
+/* HABLANOS */
+
+.hablanosContainer {
+    width: 1728px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 185px;
+}
+
+.hablanos {
+    display: flex;
+    width: 1185px;
+    height: 360px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
+}
+
+.hablanos-title {
+    width: 707px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #06052D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hablanos-text {
+    width: 1185px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hablanos-button {
+    width: 272px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Full, 1000px);
+    background: #06052D;
+    display: flex;
+    /* width: 176px;
+    height: 32px; */
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: width 1.0s ease, height 1.0s ease, font-size 1.0s ease;
+}
+
+.hablanos:hover .hablanos-button {
+    width: 308.7px;
+    height: 66px;
+    font-size: 36px;
+}
