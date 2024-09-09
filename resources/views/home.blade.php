@@ -10,7 +10,7 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="{{ asset('photos/slide1.png') }}"
+            <img class="d-block w-100 img1" src="{{ asset('photos/slide1.png') }}"
               alt="First slide">
             <div class="carousel-caption d-none d-md-block">
               <div class="titulousalab">
@@ -148,11 +148,11 @@
         <div class="card-button">Más Información</div>
       </div>
 
-      <div class="separador3"></div>
+      <div class="separador2"></div>
       <div class="clientesdiv">
         <div class="clientes-title">Clientes</div>
       </div>
-      <div class="separador4"></div>
+      <div class="separador5"></div>
       <div class="clientesContainer">
         <div class="clientes-container">
           <div class="img-wrapper"></div>
@@ -174,7 +174,7 @@
         </div>
       </div>
 
-      <div class="separador4"></div>
+      <div class="separador2"></div>
       <div class="hablanosContainer">
         <div class="hablanos">
           <div class="hablanos-title">Háblanos de tú proyecto</div>
@@ -184,14 +184,7 @@
         </div>
       </div>
 
-      <div class="separador5"></div>
-      <div class="lineContainer">
-        <div class="line">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1418" height="4" viewBox="0 0 1418 4" fill="none">
-            <path d="M0 2H1418" stroke="#BFBFBF" stroke-opacity="0.2" stroke-width="3" />
-          </svg>
-        </div>
-      </div>
-      <div class="separador5"></div>
+      <div class="separador6"></div>
+
 
       @endsection
