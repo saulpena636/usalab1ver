@@ -13,8 +13,9 @@
             <img class="d-block w-100" src="{{ asset('photos/slide1.png') }}"
               alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <p class="titulousalab">UsaLab</p>
-              <p class="titulousalab">Laboratorio de Usabilidad</p>
+              <div class="titulousalab">
+                <p class="titulousalabtxt">UsaLab<br/><br>Laboratorio de Usabilidad</p>
+              </div>
               <div class="contenidousalab">
                 <p class="contenidousalabtxt">Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)
                   especializado en usabilidad e interacción humano-computadora (HCI). Se dedica a investigar, diseñar y
@@ -155,6 +156,21 @@
       <div class="clientesContainer">
         <div class="clientes-container">
           <div class="img-wrapper"></div>
+        </div>
+      </div>
+
+      <div class="separador2"></div>
+      <div class="equipoCont">
+        <div class="equipotitle">Equipo a cargo</div>
+        <div class="eq">
+          <div class="eq1">
+            <img src="{{ asset('photos/image1.png') }}" alt="" srcset="">
+            <div class="nome1">Ing. Carlos Alberto Martinez Sandoval</div>
+          </div>
+          <div class="eq1">
+            <img src="{{ asset('photos/image2.png') }}" alt="" srcset="">
+            <div class="nome2">Ing. David del Castillo Lale</div>
+          </div>
         </div>
       </div>
 
