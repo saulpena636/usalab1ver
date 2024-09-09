@@ -22,3 +22,6 @@ Route::get('/servicios', function () {
     return view('services');
 });
 
+Route::get('/investigacion', function () {
+    return view('investigacion');
+});
