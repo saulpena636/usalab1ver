@@ -1,4 +1,11 @@
 @extends('layouts.main')
+
+@section('cssp')
+<link href="{{ asset('css/home.css') }}" type="text/css" rel="stylesheet">
+@endsection
+
+@section('title','Pagina de inicio')
+
 @section('content')
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
