@@ -223,7 +223,7 @@
                 <div class="hablanos-text">Nos gustaría conocer tu proyecto. Háblanos un poco más para desarrollar un plan de investigación que se ajuste a tus necesidades.</div>
                 <div class="hablanos-button">Hablemos</div>
             </div>
-      </div>
+        </div>
 
     </div>
 @endsection
