@@ -26,3 +26,6 @@ Route::get('/nosotros', function() {
     return view('nosotros');
 });
 
+Route::get('/investigacion', function () {
+    return view('investigacion');
+});
