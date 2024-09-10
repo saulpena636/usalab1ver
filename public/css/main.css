@@ -96,7 +96,6 @@
 }
 
 .menu1 {
-    margin-right: 80px;
     display: flex;
     flex-direction: row;
 }
@@ -322,7 +321,8 @@
 
 .idioma {
     display: inline-flex;
-    padding: 13.5px 10px;
+    width: 180px;
+    padding: 13.5px 55px 13.5px 42px;
     align-items: center;
     gap: 4px;
     box-sizing: border-box;
