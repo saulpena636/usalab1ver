@@ -22,6 +22,18 @@ Route::get('/servicios', function () {
     return view('services');
 });
 
+Route::get('/nosotros', function() {
+    return view('nosotros');
+});
+
 Route::get('/investigacion', function () {
     return view('investigacion');
+});
+
+Route::get('/thanks', function(){
+    return view('thanks');
+});
+
+Route::get('/academica', function(){
+    return view('academica');
 });
