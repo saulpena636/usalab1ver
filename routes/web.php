@@ -29,3 +29,11 @@ Route::get('/nosotros', function() {
 Route::get('/investigacion', function () {
     return view('investigacion');
 });
+
+Route::get('/thanks', function(){
+    return view('thanks');
+});
+
+Route::get('/academica', function(){
+    return view('academica');
+});
