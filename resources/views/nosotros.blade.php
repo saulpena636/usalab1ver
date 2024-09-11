@@ -13,7 +13,7 @@
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide2.jpeg') }}"
                     alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <div class="titulousalab">
+                    <div class="titulonosotros">
                     <p class="titulonosotrostxt">Nosotros</p>
                     </div>
                     <div class="contenidonosotros">
