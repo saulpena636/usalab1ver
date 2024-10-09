@@ -194,6 +194,60 @@
     flex-direction: column
 }
 
+.servicioindustriaCont {
+    display: none;
+    position: absolute;
+    top: -0px;
+    left: 192px;
+    background: #58A3C1;
+    z-index: 1;
+}
+
+.servicioindustriaCont .sricontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 8.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.servicioindustriaCont .sricontent:hover {
+    background-color: #06052D;
+}
+
+.srcontent:hover .servicioindustriaCont {
+    display: flex;
+    flex-direction: column
+}
+
+.servicioacademiaCont {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 192px;
+    background: #58A3C1;
+    z-index: 1;
+}
+
+.servicioacademiaCont .sracontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 8.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.servicioacademiaCont .sracontent:hover {
+    background-color: #06052D;
+}
+
+.srcontent:hover .servicioacademiaCont {
+    display: flex;
+    flex-direction: column
+}
+
 .investigaciones {
     display: flex;
     width: 217px;
@@ -443,7 +497,8 @@ footer {
 
 .footeroptions {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .optiontxt {
