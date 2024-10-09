@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="{{ asset('css/main.css') }}" type="text/css" rel="stylesheet">
@@ -55,9 +56,43 @@
             <div class="serviciosCont">
               <div class="srcontent">
                 <div class="navbartxt">Industria</div>
+                <div class="servicioindustriaCont">
+                  <div class="sricontent">
+                    <div class="navbartxt">Estudios de Usabilidad</div>
+                  </div>
+                  <div class="sricontent">
+                    <div class="navbartxt">Consultoria de UX/UI</div>
+                  </div>
+                  <div class="sricontent">
+                    <div class="navbartxt">Capacitacion y formacion</div>
+                  </div>
+                  <div class="sricontent">
+                    <div class="navbartxt">Desarrollo de prototipos</div>
+                  </div>
+                  <div class="sricontent">
+                    <div class="navbartxt">Analisis de UX/UI</div>
+                  </div>
+                  <div class="sricontent">
+                    <div class="navbartxt">Proyectos a medida</div>
+                  </div>
+                </div>
               </div>
               <div class="srcontent">
                 <div class="navbartxt">Academia</div>
+                <div class="servicioacademiaCont">
+                  <div class="sracontent">
+                    <div class="navbartxt">Planes de estudio</div>
+                  </div>
+                  <div class="sracontent">
+                    <div class="navbartxt">Cursos Especializados</div>
+                  </div>
+                  <div class="sracontent">
+                    <div class="navbartxt">Asesorias</div>
+                  </div>
+                  <div class="sracontent">
+                    <div class="navbartxt">Acceso a Laboratorio</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -153,8 +188,10 @@
         <div class="footeroptions">
           <p class="optiontxt">Inicio</p>
           <p class="optiontxt">Acerca de</p>
-          <p class="optiontxt">Comercial</p>
-          <p class="optiontxt">Academico</p>
+          <p class="optiontxt">Industria</p>
+          <p class="optiontxt">Acaddemia</p>
+          <p class="optiontxt">Investigaciones</p>
+          <p class="optiontxt">Formación Academica</p>
           <p class="optiontxt">Eventos</p>
           </div>
       </div>
