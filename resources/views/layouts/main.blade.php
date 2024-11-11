@@ -57,6 +57,7 @@
             </div>
           </div>
           <!-- Termina seccion Acerca de -->
+
           <!-- Seccion servicios -->
           <div class="servicios">
             <div class="navbartxt">Servicios</div>
@@ -85,6 +86,8 @@
                   </div>
                 </div>
               </div>
+              <!-- Termina seccion servicios industria -->
+
               <!-- Seccion servicios-academia -->
               <div class="srcontent">
                 <div class="navbartxt">Academia</div>
@@ -103,8 +106,11 @@
                   </div>
                 </div>
               </div>
+              <!-- Termina seccion servicios academica -->
             </div>
           </div>
+          <!-- Termina seccion Servicos -->
+
           <!-- Seccion Investigaciones -->
           <div class="investigaciones">
             <div class="navbartxt">Investigaciones</div>
@@ -123,7 +129,9 @@
               </div>
             </div>
           </div>
-          <!-- Seccion formacion -->
+          <!-- Termina seccion Investigaciones -->
+
+          <!-- Seccion formacion academica -->
           <div class="formacion">
             <div class="navbartxt">Formacion Académica</div>
             <div class="formacionCont">
@@ -144,6 +152,8 @@
               </div>
             </div>
           </div>
+          <!-- Termina seccion formacion academica -->
+
           <!-- Seccion Eventos -->
           <div class="eventos">
             <div class="navbartxt">Eventos</div>
@@ -175,6 +185,7 @@
       <!-- Termina barra de navegación -->
       <div class="separador"></div>
     </header>
+    <!-- Seccion principal -->
     <main>
       @yield('content')
     </main>
