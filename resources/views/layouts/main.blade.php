@@ -16,16 +16,20 @@
 <body>
   <div class="container1">
     <header>
+      <!-- Header de la pagina(logos del UsaLab) -->
       <div class="header">
         <img src="{{ asset('img/Logo UTM Color 1.png') }}" alt="logoutm" class="logoutm" srcset="">
         <img src="{{ asset('img/logo Usalab 3-03 1.png') }}" alt="logousalab" class="logousalab" srcset="">
       </div>
+      <!-- Barra de navegacion -->
       <div class="navbar1">
+        <!-- Seccion Inicio -->
         <div class="inicio">
           <div class="iniciotxt">Inicio</div>
         </div>
         <div class="menu1">
           <div class="acercade">
+            <!-- Seccion acerca de -->
             <div class="navbartxt">Acerca de</div>
             <div class="acercadeCont">
               <div class="adcontent">
@@ -51,10 +55,12 @@
               </div>
             </div>
           </div>
+          <!-- Seccion servicios -->
           <div class="servicios">
             <div class="navbartxt">Servicios</div>
             <div class="serviciosCont">
               <div class="srcontent">
+                <!-- Seccion servicios-industria -->
                 <div class="navbartxt">Industria</div>
                 <div class="servicioindustriaCont">
                   <div class="sricontent">
@@ -77,6 +83,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Seccion servicios-academia -->
               <div class="srcontent">
                 <div class="navbartxt">Academia</div>
                 <div class="servicioacademiaCont">
@@ -96,6 +103,7 @@
               </div>
             </div>
           </div>
+          <!-- Seccion Investigaciones -->
           <div class="investigaciones">
             <div class="navbartxt">Investigaciones</div>
             <div class="investigacionesCont">
@@ -113,6 +121,7 @@
               </div>
             </div>
           </div>
+          <!-- Seccion formacion -->
           <div class="formacion">
             <div class="navbartxt">Formacion Académica</div>
             <div class="formacionCont">
@@ -133,6 +142,7 @@
               </div>
             </div>
           </div>
+          <!-- Seccion Eventos -->
           <div class="eventos">
             <div class="navbartxt">Eventos</div>
             <div class="eventosCont">
@@ -153,6 +163,7 @@
               </div>
             </div>
           </div>
+          <!-- seccion de idiomas de la barra de navegacion -->
           <div class="idioma">
             <img src="{{ asset('icons/fontisto_world-o.svg') }}" alt="">
             <div class="idiomatxt">Eng</div>
@@ -162,40 +173,42 @@
       <div class="separador"></div>
     </header>
     <main>
-    @yield('content')
+      @yield('content')
     </main>
-
+    <!-- pie de pagina de la pagina -->
     <footer>
       <div class="footerinformacion">
         <div class="logosfooter">
-        <img class="utmfooter" src="{{ asset('img/Logo-UTM-1.png') }}" />
-        <img class="usalabfooter" src="{{ asset('img/logo Usalab 3-03 1.png') }}" />
+          <img class="utmfooter" src="{{ asset('img/Logo-UTM-1.png') }}" />
+          <img class="usalabfooter" src="{{ asset('img/logo Usalab 3-03 1.png') }}" />
         </div>
         <div class="sf1"></div>
-        <div class="footertxt">+52 953 532 0399<br/><br/>Av. Doctor Modesto Seara Vázquez #1, Acatlima, 69000 Heroica Cdad. de Huajuapan de León, Oax. Mexico<br/><br/></div>
+        <div class="footertxt">+52 953 532 0399<br /><br />Av. Doctor Modesto Seara Vázquez #1, Acatlima, 69000 Heroica
+          Cdad. de Huajuapan de León, Oax. Mexico<br /><br /></div>
         <div class="sf2"></div>
         <div class="logoslink">
           <img class="facebook" src="{{ asset('icons/mdi_facebook.svg') }}" />
           <img class="link12" src="{{ asset('icons/ic_round-link.svg') }}" />
         </div>
       </div>
-
+    <!-- Seccion menú rápido -->
       <div class="footermenu">
-      <div class="menurapido">
-        <p class="menurapidotxt">&lt;Menú rápido&gt;</p>
-        <br>
-        <br>
-        <div class="footeroptions">
-          <p class="optiontxt">Inicio</p>
-          <p class="optiontxt">Acerca de</p>
-          <p class="optiontxt">Industria</p>
-          <p class="optiontxt">Acaddemia</p>
-          <p class="optiontxt">Investigaciones</p>
-          <p class="optiontxt">Formación Academica</p>
-          <p class="optiontxt">Eventos</p>
+        <div class="menurapido">
+          <p class="menurapidotxt">&lt;Menú rápido&gt;</p>
+          <br>
+          <br>
+          <div class="footeroptions">
+            <p class="optiontxt">Inicio</p>
+            <p class="optiontxt">Acerca de</p>
+            <p class="optiontxt">Industria</p>
+            <p class="optiontxt">Acaddemia</p>
+            <p class="optiontxt">Investigaciones</p>
+            <p class="optiontxt">Formación Academica</p>
+            <p class="optiontxt">Eventos</p>
           </div>
+        </div>
       </div>
-      </div>
+<!-- Termina seccion menú rapido -->
     </footer>
 
   </div>
