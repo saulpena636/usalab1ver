@@ -27,9 +27,10 @@
         <div class="inicio">
           <div class="iniciotxt">Inicio</div>
         </div>
+        <!-- Termina seccion Inicio -->
         <div class="menu1">
+          <!-- Seccion acerca de -->
           <div class="acercade">
-            <!-- Seccion acerca de -->
             <div class="navbartxt">Acerca de</div>
             <div class="acercadeCont">
               <div class="adcontent">
@@ -55,6 +56,7 @@
               </div>
             </div>
           </div>
+          <!-- Termina seccion Acerca de -->
           <!-- Seccion servicios -->
           <div class="servicios">
             <div class="navbartxt">Servicios</div>
@@ -170,6 +172,7 @@
           </div>
         </div>
       </div>
+      <!-- Termina barra de navegación -->
       <div class="separador"></div>
     </header>
     <main>
