@@ -1,4 +1,4 @@
-/*********************************************************principal****************************************************************/
+/***********************Carrusel*********************/
 .titulousalab{
     display: flex;
     width: 1152px;
@@ -72,6 +72,7 @@
     width: 100%;
 }
 
+/*******************Principal de tarjetas*******************/
 .cards-container {
     display: flex;
     justify-content: center;
@@ -146,6 +147,7 @@
     font-size: 24px;
 }
 
+/*******************Fondos de las tarjetas prinicipales********************/
 #nuestros-servicios-card {
     background: url("../photos/nuestros-servicios.png") lightgray 50% / cover no-repeat;
 }
@@ -190,6 +192,8 @@
     top: 88px;
 }
 
+/************************Ultimos eventos****************************/
+/*****************Fondo Ultimos eventos****************/
 .fondo-azul {
     width: 1728px;
     height: 912px;
@@ -212,6 +216,7 @@
     letter-spacing: 0.55px;
 }
 
+/************ Contenedor de los eventos ***************/
 .eventosContainer {
     width: 1010px;
     height: 520px;
@@ -225,13 +230,13 @@
 
 .eventosContainer::-webkit-scrollbar {
     display: none;
-    /* Oculta la barra deslizante en Chrome, Safari y Edge */
 }
 
 .scroll-container {
     display: inline-block;
 }
 
+/************* Tarjetas ultimos eventos *************/
 .event-card {
     display: flex;
     width: 392px;
@@ -242,6 +247,7 @@
     justify-content: center;
 }
 
+/***** Titulo de tarjeta ******/
 .title-event-card {
     color: #FFF;
     font-family: Montserrat;
@@ -252,6 +258,7 @@
     letter-spacing: 0.4px;
 }
 
+/*****Contenido de la tarjeta*****/
 .text-event-card {
     color: #FFF;
     font-family: Montserrat;
@@ -263,6 +270,7 @@
     letter-spacing: 0.2px;
 }
 
+/****** C ******/
 .content-event-card {
     width: 328px;
     height: 120px;

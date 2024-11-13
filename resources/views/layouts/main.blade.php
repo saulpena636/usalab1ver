@@ -9,7 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="{{ asset('css/main.css') }}" type="text/css" rel="stylesheet">
+  <!-- Seccion para colocar CSS espeficico -->
   @yield('cssp')
+  <!-- Seccion para colocar el titulo de la pagina -->
   <title>@yield('title')</title>
 </head>
 
@@ -32,6 +34,7 @@
           <!-- Seccion acerca de -->
           <div class="acercade">
             <div class="navbartxt">Acerca de</div>
+            <!-- Contenido acerca de -->
             <div class="acercadeCont">
               <div class="adcontent">
                 <div class="navbartxt">Mision y vision</div>
@@ -61,6 +64,7 @@
           <!-- Seccion servicios -->
           <div class="servicios">
             <div class="navbartxt">Servicios</div>
+            <!--  -->
             <div class="serviciosCont">
               <div class="srcontent">
                 <!-- Seccion servicios-industria -->
@@ -92,6 +96,7 @@
               <div class="srcontent">
                 <div class="navbartxt">Academia</div>
                 <div class="servicioacademiaCont">
+                  <!-- Contenido Servicios academia -->
                   <div class="sracontent">
                     <div class="navbartxt">Planes de estudio</div>
                   </div>
