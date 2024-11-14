@@ -198,12 +198,12 @@
     width: 1728px;
     height: 912px;
     flex-shrink: 0;
-    background: #58A3C1;
+    background: #F9F9F9;
     margin-top: -400px;
 }
 
 .ultimoseventostxt {
-    color: #FFF;
+    color: #000;
     width: 246px;
     margin-top: -159px;
     margin-left: 273px;
