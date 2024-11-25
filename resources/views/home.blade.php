@@ -4,6 +4,7 @@
 <!-- Agregamos el CSS de la página -->
 @section('cssp')
 <link href="{{ asset('css/home.css') }}" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
 
 <!-- Titulo de la pestaña de la página -->
@@ -258,18 +259,7 @@
 <div class="separador2"></div>
 
 <!-- Seccion hablanos -->
-<div class="hablanosContainer">
-  <!-- Contenedor del contenido -->
-  <div class="hablanos">
-    <!-- Titulo de la seccion -->
-    <div class="hablanos-title">Háblanos de tú proyecto</div>
-    <!-- Contenido Hablanos de tu proyecto -->
-    <div class="hablanos-text">Nos gustaría conocer tu proyecto. Háblanos un poco más para desarrollar un plan de
-      investigación que se ajuste a tus necesidades.</div>
-    <!-- Boton hablemos -->
-    <div class="hablanos-button">Hablemos</div>
-  </div>
-</div>
+<x-hablanos />
 <!-- Termina seccion hablanos -->
  
 <div class="separador6"></div>
