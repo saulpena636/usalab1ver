@@ -1,3 +1,4 @@
+/* CONTENEDOR DE LA VENTANA INVESTIGACIÓN */
 .investigacion-window-container {
     display: flex;
     flex-wrap: wrap;
@@ -5,8 +6,9 @@
     gap: 160px;
 }
 
-/* INVESTIGACIÓN */
+/**************** SECCIÓN: INVESTIGACIÓN ****************/
 
+/* Contenedor de la sección "Investigación" */
 .investigacion-container {
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +20,7 @@
     mix-blend-mode: multiply;
 }
 
+/* Titulo "Investigación" */
 .investigacion-title {
     display: flex;
     width: 592px;
@@ -25,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #000;
+    color: #FFF;
     text-align: center;
     font-family: Montserrat;
     font-size: 80px;
@@ -35,6 +38,7 @@
     margin-top: 448px;
 }
 
+/* Contenedor del texto */
 .investigacion-content {
     width: 1728px;
     height: 248px;
@@ -47,6 +51,7 @@
     margin-top: 104px;
 }
 
+/* Texto de la sección "Investigación" */
 .investigacion-text {
     width: 1392px;
     height: 152px;
@@ -61,14 +66,17 @@
     letter-spacing: 0.32px;
 }
 
-/* PROYECTOS ACTUALES */
+/**************** SECCIÓN: PROYECTOS ACTUALES ****************/
 
+/* Contenedor de la sección "Proyectos actuales" */
 .proyectos-actuales-container {
     width: 1728px;
     height: 1320px;
     display: grid;
 }
 
+
+/* Titulo "Proyectos actuales" */
 .proyectos-actuales-title {
     justify-self: center;
     width: 545px;
@@ -82,6 +90,7 @@
     line-height: normal;
 }
 
+/* Contendor para los proyectos */
 .project-container {
     position: relative;
     width: 1552px;
@@ -90,16 +99,19 @@
     background: #06052D;
 }
 
+/* Ajuste para el contenedor que está posicionado a la izquierda */
 #left-project {
     justify-self: left;
     margin-top: 80px;
 }
 
+/* Ajuste para el contenedor que está posicionado a la derecha */
 #right-project {
     justify-self: right;
     margin-top: 104px;
 }
 
+/* Contenedor para la imagen del proyecto */
 .image-container {
     display: flex;
     justify-content: center;
@@ -111,18 +123,21 @@
     overflow: hidden;
 }
 
+/* Ajuste de posición para la imagen que va posicionada a la izquierda */
 #left-image {
     width: 464px;
     height: 416px;
     left: 216px;
 }
 
+/* Ajuste de posición para la imagen que va posicionada a la derecha */
 #right-image {
     width: 465px;
     height: 414px;
     right: 224px;
 }
 
+/* Contenedor para el contenido del proyecto */
 .project-content {
     display: flex;
     flex-wrap: wrap;
@@ -134,14 +149,17 @@
     top: 72px;
 }
 
+/* Ajuste para el contenedor del proyecto posicionado a la izquierda */
 #left-project-content {
     right: 48px;
 }
 
+/* Ajuste para el contenedor del proyecto posicionado a la derecha */
 #right-project-content {
     left: 48px;
 }
 
+/* Titulo del proyecto */
 .project-title {
     width: 616px;
     height: 96px;
@@ -156,6 +174,7 @@
     letter-spacing: 0.4px;
 }
 
+/* Linea separadora entre el titulo y la descripción */
 .content-line {
     width: 736px;
     height: 2px;
@@ -164,6 +183,7 @@
     margin-bottom: 56px;
 }
 
+/* Descripción del proyecto */
 .project-description {
     width: 768px;
     height: 176px;
@@ -178,14 +198,16 @@
     letter-spacing: 0.24px;
 }
 
-/* PUBLICACIONES */
+/**************** SECCIÓN: PUBLICACIONES ****************/
 
+/* Contenedor de la sección "Publicaciones" */
 .publicaciones-container {
     width: 1728px;
     height: 1180px;
     display: grid;
 }
 
+/* Titulo "Publicaciones" */
 .publicaciones-title {
     justify-self: center;
     width: 399px;
@@ -200,6 +222,7 @@
     margin-bottom: 81px;
 }
 
+/* Contenedor para la lista de publicaciones */
 .publicaciones-list {
     justify-self: center;
     width: 1328px;
@@ -216,6 +239,7 @@
     display: none;
 }
 
+/* Separador de la imagen y el contenido de la publicación */
 .vertical-line {
     position: absolute;
     left: 534px;
@@ -225,6 +249,7 @@
     background: #D7D7D7;
 }
 
+/* Tarjeta para cada publicación */
 .publication-card {
     width: 1328px;
     height: 406.074px;
@@ -233,6 +258,7 @@
     position: relative;
 }
 
+/* Contenedor de la imagen de la publicación */
 .image-publication-card {
     position: absolute;
     top: 50px;
@@ -245,6 +271,7 @@
     justify-content: center;
 }
 
+/* Contenedor del contenido de la publicación */
 .publication-card-content {
     position: absolute;
     top: 32px;
@@ -256,6 +283,7 @@
     justify-content: center;
 }
 
+/* Titulo de la publicación */
 .publication-card-title {
     color: #000;
     font-family: Montserrat;
@@ -266,6 +294,7 @@
     letter-spacing: 0.32px;
 }
 
+/* "Subtitulo de la publicación" */
 .publication-card-subtitle {
     color: #000;
     font-family: Montserrat;
@@ -276,6 +305,7 @@
     letter-spacing: 0.24px;
 }
 
+/* Autores de la publicación */
 .publication-card-authors {
     margin-top: 48px;
     color: #000;
@@ -287,8 +317,9 @@
     letter-spacing: 0.2px;
 }
 
-/* LÍNEAS DE INVESTIGACIÓN */
+/**************** SECCIÓN: LÍNEAS DE INVESTIGACIÓN ****************/
 
+/* Contenedor de la sección "Líneas de Investigación"*/
 .lineas-de-investigacion-container {
     display: flex;
     flex-wrap: wrap;
@@ -299,6 +330,7 @@
     background: #06052D;
 }
 
+/* Titulo "Líneas de Investigación" */
 .lineas-de-investigacion-title {
     margin-top: 75px;
     margin-bottom: 76px;
@@ -313,6 +345,7 @@
     line-height: normal;
 }
 
+/* Contenedor para lista de líneas de investigación */
 .lineas-de-investigacion-list {
     display: flex;
     flex-direction: column;
@@ -324,12 +357,14 @@
     gap: 90px;
 }
 
+/* Tarjeta para las líneas de investigación */
 .line-of-research-card {
     width: 1226px;
     height: 173px;
     display: flex;
 }
 
+/* Titulo de la línea de investigación */
 .line-of-research-card-title {
     display: flex;
     align-content: center;
@@ -348,6 +383,7 @@
     margin-top: 43.5px;
 }
 
+/* Separador entre el titulo y la descripción */
 .card-line {
     width: 2px;
     height: 173px;
@@ -355,6 +391,7 @@
     margin-left: 90px;
 }
 
+/* Descripción de la línea de investigación */
 .line-of-research-card-description {
     display: flex;
     align-content: center;
@@ -374,14 +411,17 @@
     margin-left: 89px;
 }
 
-/* INVESTIGACIONES MÁS IMPORTANTES */
+/**************** SECCIÓN: INVESTIGACIONES MÁS DESTACADAS ****************/
 
+/* Contenedor para la sección "Investigaciones más destacadas" */
 .investigaciones-mas-destacadas-container {
     width: 1728px;
-    height: 1245px;
+    height: 1483px;
     display: grid;
+    gap: 80px;
 }
 
+/* Titulo "Investigaciones más destacadas" */
 .investigaciones-mas-destacadas-title {
     justify-self: center;
     width: 932px;
@@ -395,99 +435,53 @@
     line-height: normal;
 }
 
+/* Contenedor para la investigación */
 .research-container {
-    width: 1544px;
-    height: 504px;
+    width: 1728px;
+    height: 631px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-}
-
-#right-research {
-    justify-self: right;
-    margin-top: 80px;
-    margin-right: 80px;
-}
-
-#left-research {
-    justify-self: left;
-    margin-top: 97px;
-    margin-left: 80px;
-}
-
-.research-image {
-    width: 704px;
-    height: 504px;
-    flex-shrink: 0;
-    border-radius: var(--Corner-Large, 16px);
-}
-
-#right-research-image {
-    margin-left: 0px;
-}
-
-#left-research-image {
-    margin-left: 56px;
-}
-
-.research-content {
-    width: 784px;
-    height: 362px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
-#right-research-content {
-    margin-left: 56px;
+/* Imagen de fondo de la primer investigación */
+#investigacion-1 {
+    background: url("../photos/investigacion-destacada-1.png");
 }
 
-#left-research-content {
-    margin-left: 0px;
+/* Imagen de fondo de la segunda investigación */
+#investigacion-2 {
+    background: url("../photos/investigacion-destacada-2.png");
 }
 
-.research-title {
-    width: 640px;
-    height: 72px;
-    flex-shrink: 0;
-    color: #000;
+/* Titulo de las investigaciones más destacadas */
+.investigacion-destacada-title {
+    color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: 32px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.32px;
-    display: flex;
-    align-items: flex-end; /* Alinea el contenido al final del eje vertical */
-    justify-content: center; /* Centra el contenido horizontalmente */
-}
-
-.research-description {
-    width: 784px;
-    height: 208px;
+    letter-spacing: 0.55px;
+    width: 1060px;
     flex-shrink: 0;
-    color: #000;
-    text-align: justify;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.24px;
+    margin-top: 263px;
 }
 
-.line-research-container {
-    width: 784px;
-    height: 2px;
-    background: #000;
-    margin-top: 56px;
-    margin-bottom: 56px;
+/* Configuración para el contenedor del titulo de la investigación destacada 1 */
+#investigacion-destacada-1 {
+    height: 56px;
 }
 
-/* HABLANOS */
+/* Configuración para el contenedor del titulo de la investigación destacada 2 */
+#investigacion-destacada-2 {
+    height: 125px;
+}
 
+/**************** SECCIÓN: HÁBLANOS DE TU PROYECTO ****************/
+
+/* Contenedor de la sección "Háblanos de tu proyecto" */
 .hablanosContainer {
     width: 1728px;
     display: flex;
@@ -495,6 +489,7 @@
     margin-bottom: 156px;
 }
 
+/* Subcontenedor de la sección "Hablanos de tu proyecto" */
 .hablanos {
     display: flex;
     width: 1185px;
@@ -506,6 +501,7 @@
     flex-shrink: 0;
 }
 
+/* Titulo "Háblanos de tu proyecto" */
 .hablanos-title {
     width: 707px;
     height: 56px;
@@ -519,6 +515,7 @@
     line-height: normal;
 }
 
+/* Texto de la sección */
 .hablanos-text {
     width: 1185px;
     height: 80px;
@@ -532,6 +529,7 @@
     line-height: normal;
 }
 
+/* Botón "Hablemos" */
 .hablanos-button {
     width: 272px;
     height: 64px;
