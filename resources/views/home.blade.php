@@ -14,24 +14,34 @@
 @section('content')
 <!-- Carrusel de la página principal -->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <!-- Imagenes del carrusel -->
-      <img class="d-block w-100 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-inner">
+        <!-- Imagenes del carrusel -->
+        <div class="carousel-item active">
+            <img class="d-block w-10" src="{{ asset('photos/slide1.png') }}" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-10" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-10" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-10" src="{{ asset('img/investigacion.png') }}" alt="Fourth slide">
+        </div>
+    </div>
+    <div class="carousel-caption d-none d-md-block">
         <!-- Titulo del carrusel -->
         <div class="titulousalab">
-          <p class="titulousalabtxt">UsaLab<br /><br>Laboratorio de Usabilidad</p>
+            <p class="titulousalabtxt">UsaLab<br /><br>Laboratorio de Usabilidad</p>
         </div>
         <!-- Contenido del carrusel -->
         <div class="contenidousalab">
-          <p class="contenidousalabtxt">Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)
-            especializado en usabilidad e interacción humano-computadora (HCI). Se dedica a investigar, diseñar y
-            optimizar interfaces y sistemas interactivos, asegurando que sean accesibles e intuitivos.</p>
+            <p class="contenidousalabtxt">Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)
+                especializado en usabilidad e interacción humano-computadora (HCI). Se dedica a investigar,
+                diseñar y
+                optimizar interfaces y sistemas interactivos, asegurando que sean accesibles e intuitivos.</p>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 <!-- Termina carrusel de la pagina principal -->
 <div class="separador2"></div>
@@ -263,5 +273,10 @@
 <!-- Termina seccion hablanos -->
  
 <div class="separador6"></div>
+
+<script>
+  declare var $;
+  $('.carousel').carousel()
+</script>
 
 @endsection

@@ -1,3 +1,4 @@
+/*******Contenedor del Titulo carrusel Nosotros*******/
 .titulonosotros {
     display: flex;
     width: 1152px;
@@ -9,6 +10,7 @@
     animation: titulonosotros 1.5s forwards;
 }
 
+/******Imagen del Carrusel******/
 .img1 {
     width: 100%;
     height: 880px;
@@ -17,6 +19,7 @@
     filter: brightness(75%);
 }
 
+/*****Texto del titulo*****/
 .titulonosotrostxt {
     color: #FFF;
     text-align: center;
@@ -29,6 +32,7 @@
     letter-spacing: 0.8px;
 }
 
+/******Contenedor del contenido del carrusel Nosotros*****/
 .contenidonosotros {
     width: 1728px;
     height: 248px;
@@ -42,6 +46,7 @@
     animation: contenidonosotros 1.5s forwards;
 }
 
+/*****Texto del contenido del carrusel Nosotros*****/
 .contenidonosotrostxt {
     width: 1392px;
     height: 152px;
