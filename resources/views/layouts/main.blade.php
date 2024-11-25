@@ -49,7 +49,7 @@
                 <div class="navbartxt">Trayectoria</div>
               </div>
               <div class="adcontent">
-                <div class="navbartxt">colaboracion</div>
+                <div class="navbartxt">Colaboracion</div>
               </div>
               <div class="adcontent">
                 <div class="navbartxt">Logros</div>
