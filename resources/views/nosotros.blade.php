@@ -38,7 +38,7 @@
     <div class="misionContent">
         <div class="misionvc">
             <!-- Imagen mision vision -->
-            <img class="img13" src="{{ asset('photos/img13.png') }}" alt="" srcset="">
+            <img class="img13" src="{{ asset('photos/182234778_10156808451192325_5374785971353130951_n.jpg') }}" alt="" srcset="">
             <!-- Contenido mision-vision -->
             <div class="misionvision">
                 <!-- Mision -->
