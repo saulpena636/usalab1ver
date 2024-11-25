@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #000;
+    color: #FFF;
     text-align: center;
     font-family: Montserrat;
     font-size: 80px;
@@ -411,13 +411,14 @@
     margin-left: 89px;
 }
 
-/**************** SECCIÓN: INVESTIGACIONES MÁS IMPORTANTES ****************/
+/**************** SECCIÓN: INVESTIGACIONES MÁS DESTACADAS ****************/
 
 /* Contenedor para la sección "Investigaciones más destacadas" */
 .investigaciones-mas-destacadas-container {
     width: 1728px;
-    height: 1245px;
+    height: 1483px;
     display: grid;
+    gap: 80px;
 }
 
 /* Titulo "Investigaciones más destacadas" */
@@ -436,105 +437,46 @@
 
 /* Contenedor para la investigación */
 .research-container {
-    width: 1544px;
-    height: 504px;
+    width: 1728px;
+    height: 631px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-}
-
-/* Ajustes para el contenedor de la investigación con el contenido a la derecha*/
-#right-research {
-    justify-self: right;
-    margin-top: 80px;
-    margin-right: 80px;
-}
-
-/* Ajustes para el contenedor de la investigación con el contenido a la izquierda*/
-#left-research {
-    justify-self: left;
-    margin-top: 97px;
-    margin-left: 80px;
-}
-
-/* Contenedor para la imagen de la investigación */
-.research-image {
-    width: 704px;
-    height: 504px;
-    flex-shrink: 0;
-    border-radius: var(--Corner-Large, 16px);
-}
-
-/* Ajuste para la imagen con el contenido a la derecha */
-#right-research-image {
-    margin-left: 0px;
-}
-
-/* Ajuste para la imagen con el contenido a la izquierda */
-#left-research-image {
-    margin-left: 56px;
-}
-
-/* Contenedor del contenido de la investigación */
-.research-content {
-    width: 784px;
-    height: 362px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
-/* Ajustes en el contenedor para cuando está posicionado a la derecha */
-#right-research-content {
-    margin-left: 56px;
+/* Imagen de fondo de la primer investigación */
+#investigacion-1 {
+    background: url("../photos/investigacion-destacada-1.png");
 }
 
-/* Ajustes en el contenedor para cuando está posicionado a la izquierda */
-#left-research-content {
-    margin-left: 0px;
+/* Imagen de fondo de la segunda investigación */
+#investigacion-2 {
+    background: url("../photos/investigacion-destacada-2.png");
 }
 
-/* Titulo de la investigación */
-.research-title {
-    width: 640px;
-    height: 72px;
-    flex-shrink: 0;
-    color: #000;
+/* Titulo de las investigaciones más destacadas */
+.investigacion-destacada-title {
+    color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: 32px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.32px;
-    display: flex;
-    align-items: flex-end; /* Alinea el contenido al final del eje vertical */
-    justify-content: center; /* Centra el contenido horizontalmente */
-}
-
-/* Descripcion de la descripción */
-.research-description {
-    width: 784px;
-    height: 208px;
+    letter-spacing: 0.55px;
+    width: 1060px;
     flex-shrink: 0;
-    color: #000;
-    text-align: justify;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.24px;
+    margin-top: 263px;
 }
 
-/* Separador entre el titulo y la descripción de la investigación */
-.line-research-container {
-    width: 784px;
-    height: 2px;
-    background: #000;
-    margin-top: 56px;
-    margin-bottom: 56px;
+/* Configuración para el contenedor del titulo de la investigación destacada 1 */
+#investigacion-destacada-1 {
+    height: 56px;
+}
+
+/* Configuración para el contenedor del titulo de la investigación destacada 2 */
+#investigacion-destacada-2 {
+    height: 125px;
 }
 
 /**************** SECCIÓN: HÁBLANOS DE TU PROYECTO ****************/

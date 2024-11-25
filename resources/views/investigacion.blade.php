@@ -12,7 +12,7 @@
         <!-- Contenedor para la sección "Investigación" (Titulo y descripción) -->
         <div class="investigacion-container">
             <!-- Titulo "Investigeación -->
-            <div class="investigacion-title">Investigación</div>
+            <div class="investigacion-title">Investigaciones</div>
             <!-- Contenedor para la descripción de la página Investigación -->
             <div class="investigacion-content">
                 <!-- Descripción -->
@@ -630,34 +630,14 @@
             <!-- Titulo de "Investigaciones más destacadas" -->
             <div class="investigaciones-mas-destacadas-title">Investigaciones más destacadas</div>
             
-            <!-- Contenedor de la investigación con contenido a la derecha -->
-            <div id="right-research" class="research-container">
-                <!-- Imagen de la investigación -->
-                <div id="right-research-image" class="research-image" style="background: url({{ asset('photos/investigacion-destacada-1.png') }}) lightgray 50% / cover no-repeat;"></div>
-                <!-- Contenedor de la investigación -->
-                <div id="right-research-content" class="research-content">
-                    <!-- Titulo de la investigación -->
-                    <div class="research-title">Investigación en Accesibilidad Web</div>
-                    <!-- Separador enter el titulo y su descripción -->
-                    <div class="line-research-container"></div>
-                    <!-- Descripción de la investigación -->
-                    <div class="research-description">Un proyecto destacado de UsaLab en el ámbito académico fue una investigación exhaustiva sobre la accesibilidad web en portales educativos. Analizamos plataformas de e-learning para identificar barreras de accesibilidad para personas con discapacidades y propusimos recomendaciones que fueron adoptadas por varias instituciones, mejorando la inclusión digital en sus plataformas.</div>
-                </div>
+            <!-- Contenedor de la primer investigación -->
+            <div id="investigacion-1" class="research-container">
+                <div id="investigacion-destacada-1" class="investigacion-destacada-title">Investigación en Accesibilidad Web</div>
             </div>
 
-            <!-- Contenedor de la investigación con contenido a la izquierda -->
-            <div id="left-research" class="research-container">
-                <!-- Contenedor de la investigación -->
-                <div id="left-research-content" class="research-content">
-                    <!-- Titulo de la investigación -->
-                    <div class="research-title">Estudio de la Usabilidad en Software Educativo</div>
-                    <!-- Separador enter el titulo y su descripción -->
-                    <div class="line-research-container"></div>
-                    <!-- Descripción de la investigación -->
-                    <div class="research-description"> En colaboración con instituciones educativas, UsaLab realizó un estudio sobre la usabilidad del software en aulas virtuales. Evaluaron diversas plataformas e implementaron mejoras basadas en principios de usabilidad, lo que mejoró la experiencia de aprendizaje para estudiantes y profesores, especialmente en educación a distancia.</div>
-                </div>
-                <!-- Imagen de la investigación -->
-                <div id="left-research-image" class="research-image" style="background: url({{ asset('photos/investigacion-destacada-2.png') }}) lightgray 50% / cover no-repeat;"></div>
+            <!-- Contenedor de la segunda investigación -->
+            <div id="investigacion-2" class="research-container">
+                <div id="investigacion-destacada-2" class="investigacion-destacada-title">Estudio de la Usabilidad en Software Educativo</div>
             </div>
         </div>
 
