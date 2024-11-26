@@ -34,12 +34,12 @@
         <!-- Termina seccion Inicio -->
         <div class="menu1">
           <!-- Seccion acerca de -->
-          <div onclick="window.location.href='{{ url('/nosotros') }}'" class="acercade">
-            <div class="navbartxt">Acerca de</div>
+          <div class="acercade">
+            <div onclick="window.location.href='{{ url('/nosotros') }}'" class="navbartxt">Acerca de</div>
             <!-- Contenido acerca de -->
             <div class="acercadeCont">
-              <div class="adcontent">
-                <div onclick="window.location.href='{{ url('/nosotros#mision') }}'" class="navbartxt">Mision y vision</div>
+              <div onclick="window.location.href='{{ url('/nosotros#mision') }}'"class="adcontent">
+                <div class="navbartxt">Misión y Visión</div>
               </div>
               <div onclick="window.location.href='{{ url('/nosotros#instalaciones') }}'" class="adcontent">
                 <div class="navbartxt">Instalaciones</div>
@@ -47,16 +47,16 @@
               <div onclick="window.location.href='{{ url('/nosotros#equipo') }}'" class="adcontent">
                 <div class="navbartxt">Equipo a cargo</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#trayectoria') }}'" class="adcontent">
                 <div class="navbartxt">Trayectoria</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#colab') }}'" class="adcontent">
                 <div class="navbartxt">Colaboracion</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#logros') }}'" class="adcontent">
                 <div class="navbartxt">Logros</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#testimonios') }}'" class="adcontent">
                 <div class="navbartxt">Testimonios</div>
               </div>
             </div>
