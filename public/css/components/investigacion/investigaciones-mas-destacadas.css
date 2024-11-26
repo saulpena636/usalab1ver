@@ -1,0 +1,67 @@
+/**************** SECCIÓN: INVESTIGACIONES MÁS DESTACADAS ****************/
+
+/* Contenedor para la sección "Investigaciones más destacadas" */
+.investigaciones-mas-destacadas-container {
+    width: 1728px;
+    height: 1483px;
+    display: grid;
+    gap: 80px;
+}
+
+/* Titulo "Investigaciones más destacadas" */
+.investigaciones-mas-destacadas-title {
+    justify-self: center;
+    width: 932px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Contenedor para la investigación */
+.research-container {
+    width: 1728px;
+    height: 631px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Imagen de fondo de la primer investigación */
+#investigacion-1 {
+    background: url("../../../photos/investigacion-destacada-1.png");
+}
+
+/* Imagen de fondo de la segunda investigación */
+#investigacion-2 {
+    background: url("../../../photos/investigacion-destacada-2.png");
+}
+
+/* Titulo de las investigaciones más destacadas */
+.investigacion-destacada-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    width: 1060px;
+    flex-shrink: 0;
+    margin-top: 263px;
+}
+
+/* Configuración para el contenedor del titulo de la investigación destacada 1 */
+#investigacion-destacada-1 {
+    height: 56px;
+}
+
+/* Configuración para el contenedor del titulo de la investigación destacada 2 */
+#investigacion-destacada-2 {
+    height: 125px;
+}
