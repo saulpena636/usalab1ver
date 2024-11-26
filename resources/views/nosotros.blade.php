@@ -35,7 +35,7 @@
 
     <div class="separador2"></div>
     <!-- Seccion mision-vision -->
-    <div class="misionContent">
+    <div class="misionContent" id="mision">
         <div class="misionvc">
             <!-- Imagen mision vision -->
             <img class="img13" src="{{ asset('photos/182234778_10156808451192325_5374785971353130951_n.jpg') }}" alt="" srcset="">
@@ -62,7 +62,7 @@
     </div>
     <div class="separador2"></div>
     <!-- Contenedor Instalaciones -->
-    <div class="instalacionesContent">
+    <div class="instalacionesContent" id="instalaciones">
         <!-- Titulo instalaciones -->
         <div class="instalacionestitle">Instalaciones</div>
         <div class="separador6"></div>
@@ -79,7 +79,7 @@
     </div>
     <div class="separador2"></div>
     <!-- Seccion equipo a cargo -->
-    <div class="equipoCont">
+    <div id="equipo" class="equipoCont">
         <!-- Titulo equipo a cargo -->
         <div class="equipotitle">Equipo a cargo</div>
         <div class="eq">
