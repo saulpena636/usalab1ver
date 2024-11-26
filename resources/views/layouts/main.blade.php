@@ -28,23 +28,23 @@
       <!-- Barra de navegacion -->
       <div class="navbar1">
         <!-- Seccion Inicio -->
-        <div class="inicio">
+        <div onclick="window.location.href='{{ url('/') }}'" class="inicio">
           <div class="iniciotxt">Inicio</div>
         </div>
         <!-- Termina seccion Inicio -->
         <div class="menu1">
           <!-- Seccion acerca de -->
-          <div class="acercade">
+          <div onclick="window.location.href='{{ url('/nosotros') }}'" class="acercade">
             <div class="navbartxt">Acerca de</div>
             <!-- Contenido acerca de -->
             <div class="acercadeCont">
               <div class="adcontent">
-                <div class="navbartxt">Mision y vision</div>
+                <div onclick="window.location.href='{{ url('/nosotros#mision') }}'" class="navbartxt">Mision y vision</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#instalaciones') }}'" class="adcontent">
                 <div class="navbartxt">Instalaciones</div>
               </div>
-              <div class="adcontent">
+              <div onclick="window.location.href='{{ url('/nosotros#equipo') }}'" class="adcontent">
                 <div class="navbartxt">Equipo a cargo</div>
               </div>
               <div class="adcontent">
@@ -194,6 +194,24 @@
     </header>
     <!-- Seccion principal -->
     <main>
+      <!-- Carrusel de la página principal -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <!-- Imagenes del carrusel -->
+              @yield('img')
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+              <!-- Titulo del carrusel -->
+              <div class="titulousalab">
+                  <p class="titulousalabtxt">@yield('tituloc')</p>
+              </div>
+              <!-- Contenido del carrusel -->
+              <div class="contenidousalab">
+                  <p class="contenidousalabtxt">@yield('contc')</p>
+              </div>
+          </div>
+      </div>
+      <!-- Termina carrusel de la pagina principal -->
       @yield('content')
     </main>
     <!-- pie de pagina de la pagina -->
