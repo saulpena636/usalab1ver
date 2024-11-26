@@ -24,7 +24,7 @@
     <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
 </div>
 <div class="carousel-item">
-    <img class="d-block w-10 img1" src="{{ asset('img/investigacion.png') }}" alt="Fourth slide">
+    <img class="d-block w-10 img1" src="{{ asset('photos/slide8.png') }}" alt="Fourth slide">
 </div>
 @endsection
 
