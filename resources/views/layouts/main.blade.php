@@ -194,6 +194,24 @@
     </header>
     <!-- Seccion principal -->
     <main>
+      <!-- Carrusel de la página principal -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <!-- Imagenes del carrusel -->
+              @yield('img')
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+              <!-- Titulo del carrusel -->
+              <div class="titulousalab">
+                  <p class="titulousalabtxt">@yield('tituloc')</p>
+              </div>
+              <!-- Contenido del carrusel -->
+              <div class="contenidousalab">
+                  <p class="contenidousalabtxt">@yield('contc')</p>
+              </div>
+          </div>
+      </div>
+      <!-- Termina carrusel de la pagina principal -->
       @yield('content')
     </main>
     <!-- pie de pagina de la pagina -->

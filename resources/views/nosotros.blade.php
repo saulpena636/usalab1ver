@@ -14,25 +14,23 @@
 <!-- Empieza el contenido de la página -->
 @section('content')
     <!-- Carrusel de la página principal -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <!-- Imagenes del carrusel -->
-            <div class="carousel-item active">
-                <img class="d-block w-100 img1" src="{{ asset('photos/slide2.jpeg') }}"
-                    alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <!-- Titulo del carrusel -->
-                    <div class="titulonosotros">
-                    <p class="titulonosotrostxt">Nosotros</p>
-                    </div>
-                    <!-- Contenido del carrusel -->
-                    <div class="contenidonosotros">
-                    <p class="contenidonosotrostxt">UsaLab, fundado en 2002, se dedica a desarrollar pruebas de usabilidad tanto académicas como en colaboración con universidades de México. Además de realizar pruebas formales y fomentar la usabilidad en sus propios proyectos, ha completado más de 120 desarrollos académicos gratuitos o en convenio con otras instituciones.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @section('img')
+    <div class="carousel-item">
+        <img class="d-block w-10 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
     </div>
+    <div class="carousel-item">
+        <img class="d-block w-10 img1" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
+    </div>
+    <div class="carousel-item active">
+        <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-10 img1" src="{{ asset('img/investigacion.png') }}" alt="Fourth slide">
+    </div>
+    @endsection
+
+    @section('tituloc','Nosotros')
+    @section('contc','UsaLab, fundado en 2002, se dedica a desarrollar pruebas de usabilidad tanto académicas como en colaboración con universidades de México. Además de realizar pruebas formales y fomentar la usabilidad en sus propios proyectos, ha completado más de 120 desarrollos académicos gratuitos o en convenio con otras instituciones.')
 
     <div class="separador2"></div>
     <!-- Seccion mision-vision -->
@@ -284,5 +282,10 @@
     <!-- Seccion hablanos -->
     <x-hablanos />
     <div class="separador2"></div>
+
+    <script>
+        declare var $;
+        $('.carousel').carousel()
+    </script>
 
 @endsection
