@@ -17,16 +17,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-
-Route::get('/servicios', function () {
-    return view('services');
-});
-
 Route::get('/nosotros', function() {
     return view('nosotros');
 });
 
-Route::get('/investigacion', function () {
+Route::get('/investigaciones', function () {
     return view('investigacion');
 });
 
