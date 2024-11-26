@@ -12,38 +12,31 @@
 
 <!-- Empieza el contenido de la página -->
 @section('content')
-<!-- Carrusel de la página principal -->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <!-- Imagenes del carrusel -->
-        <div class="carousel-item active">
-            <img class="d-block w-10" src="{{ asset('photos/slide1.png') }}" alt="First slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-10" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-10" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-10" src="{{ asset('img/investigacion.png') }}" alt="Fourth slide">
-        </div>
-    </div>
-    <div class="carousel-caption d-none d-md-block">
-        <!-- Titulo del carrusel -->
-        <div class="titulousalab">
-            <p class="titulousalabtxt">UsaLab<br /><br>Laboratorio de Usabilidad</p>
-        </div>
-        <!-- Contenido del carrusel -->
-        <div class="contenidousalab">
-            <p class="contenidousalabtxt">Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)
-                especializado en usabilidad e interacción humano-computadora (HCI). Se dedica a investigar,
-                diseñar y
-                optimizar interfaces y sistemas interactivos, asegurando que sean accesibles e intuitivos.</p>
-        </div>
-    </div>
+
+@section('img')
+<div class="carousel-item active">
+    <img class="d-block w-10 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
 </div>
-<!-- Termina carrusel de la pagina principal -->
+<div class="carousel-item">
+    <img class="d-block w-10 img1" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
+</div>
+<div class="carousel-item">
+    <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
+</div>
+<div class="carousel-item">
+    <img class="d-block w-10 img1" src="{{ asset('img/investigacion.png') }}" alt="Fourth slide">
+</div>
+@endsection
+
+@section('tituloc')
+UsaLab<br /><br>Laboratorio de Usabilidad
+@endsection
+
+@section('contc','Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)
+                      especializado en usabilidad e interacción humano-computadora (HCI). Se dedica a investigar,
+                      diseñar y
+                      optimizar interfaces y sistemas interactivos, asegurando que sean accesibles e intuitivos.')
+
 <div class="separador2"></div>
 
 <!-- Seccion principal de tarjetas (Nuestros servicios, Nosotros, Investigacion) -->
