@@ -95,7 +95,7 @@
         </div>
     </div>
     <div class="separador2"></div>
-    <div class="trayectoriaContent">
+    <div id="trayectoria" class="trayectoriaContent">
     <!-- Falta hacer la trayectoria -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -119,7 +119,7 @@
     </div>
     <div class="separador2"></div>
     <!-- Seccion colaboraciones -->
-    <div class="colaboracionesContent">
+    <div id="colab" class="colaboracionesContent">
         <!-- Titulo de la seccion -->
         <div class="colaboracionestitle">Colaboraciones</div>
         <div class="separador5"></div>
@@ -151,7 +151,7 @@
     </div>
     <div class="separador2"></div>
     <!-- Seccion Logros -->
-    <div class="logrosContent">
+    <div id="logros" class="logrosContent">
         <!-- Titulo logros -->
         <div class="logrostitle">Logros en participacion de concurso</div>
         <div class="separador5"></div>
@@ -241,7 +241,7 @@
 
     <div class="separador2"></div>
     <!-- Seccion "Testimonios" -->
-    <div class="testimoniosContent">
+    <div id="testimonios" class="testimoniosContent">
         <!-- Titulo testimonios -->
         <div class="testimoniostitle">Algunos Testimonios</div>
         <!-- Contenido Testimonios -->
