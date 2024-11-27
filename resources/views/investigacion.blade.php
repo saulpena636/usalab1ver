@@ -28,10 +28,10 @@
         <div class="investigacion-container">
             <!-- Carrousel -->
             @section('img')
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img class="d-block w-10 img1" src="{{ asset('photos/slide8.png') }}" alt="Fourth slide">
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img class="d-block w-10 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
             </div>
             <div class="carousel-item">
