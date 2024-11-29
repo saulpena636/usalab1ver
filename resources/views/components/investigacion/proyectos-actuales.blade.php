@@ -1,5 +1,5 @@
 <!-- Contenedor para la sección "Proyectos actuales" -->
-<div class="proyectos-actuales-container">
+<div id="proyectos-actuales" class="proyectos-actuales-container">
     
     <!-- Titulo "Proyectos actuales" -->
     <div class="proyectos-actuales-title">Proyectos actuales</div>
