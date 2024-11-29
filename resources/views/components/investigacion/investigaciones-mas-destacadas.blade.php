@@ -1,5 +1,5 @@
 <!-- Contenedor para la sección "Investigaciones más destacadas" -->
-<div class="investigaciones-mas-destacadas-container">
+<div id="investigaciones-mas-destacadas" class="investigaciones-mas-destacadas-container">
 
     <!-- Titulo de "Investigaciones más destacadas" -->
     <div class="investigaciones-mas-destacadas-title">Investigaciones más destacadas</div>
