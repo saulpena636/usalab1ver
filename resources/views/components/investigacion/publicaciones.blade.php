@@ -1,5 +1,5 @@
 <!-- Contenedor para la sección "Publicaciones" -->
-<div class="publicaciones-container">
+<div id="publicaciones" class="publicaciones-container">
 
     <!-- Titulo "Publicaciones" -->
     <div class="publicaciones-title">Publicaciones</div>
