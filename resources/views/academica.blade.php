@@ -11,26 +11,23 @@
 
 <!-- Empieza el contenido de la página -->
 @section('content')
+
+
     <!-- Carrusel de la página principal -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!-- Imagenes del carrusel -->
-                <img class="d-block w-100 img1" src="{{ asset('photos/slide5.png') }}"
-                    alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <!-- Titulo del carrusel -->
-                    <div class="titulonosotros">
-                    <p class="titulonosotrostxt">Formación Académica</p>
-                    </div>
-                    <!-- Contenido del carrusel -->
-                    <div class="contenidonosotros">
-                    <p class="contenidonosotrostxt">En UsaLab, los estudiantes pueden participar en proyectos reales, realizar prácticas profesionales, colaborar en investigaciones y asistir a talleres. Estas actividades te permitirán aplicar tus conocimientos y desarrollar habilidades clave en el campo de la usabilidad.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    @section('img')
+<div class="carousel-item active">
+    <img class="d-block w-10 img1" src="{{ asset('photos/slide5.png') }}" alt="First slide">
+</div>
+
+@endsection
+
+@section('tituloc')
+Formacion Académica
+@endsection
+
+@section('contc','En UsaLab, los estudiantes pueden participar en proyectos reales, realizar prácticas profesionales, colaborar en investigaciones y asistir a talleres. Estas actividades te permitirán aplicar tus conocimientos y desarrollar habilidades clave en el campo de la usabilidad.')
+
     <!-- Termina carrusel de la pagina principal -->
     <div class="separador2"></div>
     <!-- Seccion pruebas de Usabilidad -->

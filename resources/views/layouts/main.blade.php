@@ -140,7 +140,7 @@
 
           <!-- Seccion formacion academica -->
           <div class="formacion">
-            <div class="navbartxt">Formacion Académica</div>
+            <div onclick="window.location.href='{{ url('/academica') }}'" class="navbartxt">Formacion Académica</div>
             <div class="formacionCont">
               <div class="facontent">
                 <div class="navbartxt">Pruebas de Usabilidad</div>

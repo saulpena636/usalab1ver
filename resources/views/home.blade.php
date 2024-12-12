@@ -74,7 +74,7 @@ UsaLab<br /><br>Laboratorio de Usabilidad
   </div>
 
   <!-- Terjeta "Nosotros" -->
-  <div id="nosotros-card" class="card">
+  <div id="nosotros-card" onclick="window.location.href='{{ url('/nosotros') }}'" class="card">
     <!-- Figura de la tarjeta -->
     <div class="card-figure">
       <svg xmlns="http://www.w3.org/2000/svg" width="448" height="290" viewBox="0 0 448 290" fill="none">
