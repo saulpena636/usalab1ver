@@ -120,19 +120,24 @@
 
           <!-- Seccion Investigaciones -->
           <div class="investigaciones">
+            <!-- Redirección a la ventana "Investigaciones" -->
             <div onclick="window.location.href='{{ url('/investigaciones') }}'" class="navbartxt">Investigaciones</div>
             <div class="investigacionesCont">
               <div class="incontent">
-                <div class="navbartxt">Proyectos Actuales</div>
+                <!-- Redirección a la sección "Proyectos actuales" en la ventana "Investigaciones" -->
+                <div onclick="window.location.href='{{ url('/investigaciones#proyectos-actuales') }}'" class="navbartxt">Proyectos Actuales</div>
               </div>
               <div class="incontent">
-                <div class="navbartxt">Publicaciones</div>
+                <!-- Redirección a la sección "Publicaciones" en la ventana "Investigaciones" -->
+                <div onclick="window.location.href='{{ url('/investigaciones#publicaciones') }}'" class="navbartxt">Publicaciones</div>
               </div>
               <div class="incontent">
-                <div class="navbartxt">Líneas de investigación</div>
+                <!-- Redirección a la sección "Líneas de investigación" en la ventana "Investigaciones" -->
+                <div onclick="window.location.href='{{ url('/investigaciones#lineas-de-investigacion') }}'" class="navbartxt">Líneas de investigación</div>
               </div>
               <div class="incontent">
-                <div class="navbartxt">Mas destacados</div>
+                <!-- Redirección a la sección "Investigaciones más destacados" en la ventana "Investigaciones" -->
+                <div onclick="window.location.href='{{ url('/investigaciones#investigaciones-mas-destacadas') }}'" class="navbartxt">Más destacados</div>
               </div>
             </div>
           </div>

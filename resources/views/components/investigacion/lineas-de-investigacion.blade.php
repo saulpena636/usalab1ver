@@ -1,5 +1,5 @@
 <!-- Contenedor para la sección "Líneas de Investigación" -->
-<div class="lineas-de-investigacion-container">
+<div id="lineas-de-investigacion" class="lineas-de-investigacion-container">
     <!-- Titulo "Líneas de Investigación" -->
     <div class="lineas-de-investigacion-title">Líneas de Investigación</div>
     <!-- Contenedor para el listado de líneas de investigación -->
