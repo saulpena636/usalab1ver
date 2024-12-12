@@ -59,6 +59,8 @@
     }
 }
 
+/**********************Barra de novegacion****************************/
+
 .navbar1 {
     width: 1728px;
     height: 56px;
@@ -68,6 +70,7 @@
     justify-content: space-between;
 }
 
+/*Seccion de inicio*/
 .inicio {
     display: flex;
     width: 128px;
@@ -100,6 +103,7 @@
     flex-direction: row;
 }
 
+/*Seccion acerca de*/
 .acercade {
     display: flex;
     width: 192px;
@@ -141,7 +145,7 @@
     display: flex;
     flex-direction: column
 }
-
+/*Texto de la barra de navegacion*/
 .navbartxt {
     color: #FFF;
     text-align: center;
@@ -151,7 +155,7 @@
     font-weight: 500;
     line-height: normal;
 }
-
+/*Seccion servicios*/
 .servicios {
     display: flex;
     width: 192px;
@@ -194,6 +198,7 @@
     flex-direction: column
 }
 
+/*Seccion servicios-industria*/
 .servicioindustriaCont {
     display: none;
     position: absolute;
@@ -221,6 +226,7 @@
     flex-direction: column
 }
 
+/*Seccion servicios-academia*/
 .servicioacademiaCont {
     display: none;
     position: absolute;
@@ -248,6 +254,7 @@
     flex-direction: column
 }
 
+/*Seccion investigaciones*/
 .investigaciones {
     display: flex;
     width: 217px;
@@ -290,6 +297,7 @@
     flex-direction: column
 }
 
+/*Seccion formacion academica*/
 .formacion {
     display: inline-flex;
     padding: 13.5px 15px;
@@ -331,6 +339,7 @@
     flex-direction: column
 }
 
+/*Seccion eventos*/
 .eventos {
     display: flex;
     width: 180px;
@@ -373,6 +382,7 @@
     flex-direction: column
 }
 
+/*Seccion idionas*/
 .idioma {
     display: inline-flex;
     width: 180px;
@@ -406,6 +416,75 @@
 .separador {
     height: 56px;
     width: 100%;
+}
+
+/***********************Carrusel*********************/
+.titulousalab{
+    display: flex;
+    width: 1152px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: -384px;
+    animation: titulousalab 1.5s forwards;
+}
+
+@keyframes titulousalab {
+    to {
+        margin-bottom: 104px;
+    }
+}
+
+.img1{
+    background: rgba(0, 0, 0, 0.30);
+    filter: brightness(50%);
+}
+
+.titulousalabtxt {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+}
+
+.contenidousalab {
+    width: 1728px;
+    height: 248px;
+    display: flex;
+    margin-bottom: -288px;
+    margin-left: -260px;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+    justify-content: center;
+    align-items: center;
+    animation: contenidousalab 1.5s forwards;
+}
+
+@keyframes contenidousalab {
+    to{
+        margin-bottom: -40px;
+    }
+    
+}
+
+.contenidousalabtxt {
+    width: 1392px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #FFFCFC;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.32px;
 }
 
 /********************************************************footer**************************************************************/

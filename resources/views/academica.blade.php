@@ -1,21 +1,29 @@
+<!-- Exportamos el layout de la pagina principal -->
 @extends('layouts.main')
 
+<!-- Agregamos el CSS de la página -->
 @section('cssp')
     <link href="{{ asset('css/academica.css') }}" type="text/css" rel="stylesheet">
 @endsection
 
+<!-- Titulo de la pestaña de la página -->
 @section('title', 'Formacion Academica')
 
+<!-- Empieza el contenido de la página -->
 @section('content')
+    <!-- Carrusel de la página principal -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <!-- Imagenes del carrusel -->
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide5.png') }}"
                     alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
+                    <!-- Titulo del carrusel -->
                     <div class="titulonosotros">
                     <p class="titulonosotrostxt">Formación Académica</p>
                     </div>
+                    <!-- Contenido del carrusel -->
                     <div class="contenidonosotros">
                     <p class="contenidonosotrostxt">En UsaLab, los estudiantes pueden participar en proyectos reales, realizar prácticas profesionales, colaborar en investigaciones y asistir a talleres. Estas actividades te permitirán aplicar tus conocimientos y desarrollar habilidades clave en el campo de la usabilidad.</p>
                     </div>
@@ -23,8 +31,9 @@
             </div>
         </div>
     </div>
-
+    <!-- Termina carrusel de la pagina principal -->
     <div class="separador2"></div>
+    <!-- Seccion pruebas de Usabilidad -->
     <div class="pruebausalab">
         <div class="pruebausalabtxt">
             <div class="linea1"></div>
@@ -36,7 +45,7 @@
     <div class="separador3"></div>
     <div class="tarjetas"></div>
     <div class="separador2"></div>
-
+    <!-- Seccion Pruebas en laboratorio -->
     <div class="pruebaslaboratorio">
         <div class="pruebaslaboratoriotitle">Pruebas en Laboratorio</div>
         <div class="pruebaslaboratoriotxt">
@@ -48,6 +57,7 @@
     <img class="pruebas1" src="{{ asset('photos/pruebas1.png') }}" alt="">
     <div class="separador2"></div>
 
+    <!-- Seccion Pruebas de Usabilidad con Prototipos -->
     <div class="usabilidad">
         <div class="usabilidadtitle">Pruebas de Usabilidad con Prototipos</div>
         <div class="usabilidadcont">
@@ -59,6 +69,7 @@
     <img class="pruebas2" src="{{ asset('photos/pruebas2.jpeg') }}" alt="">
     <div class="separador2"></div>
 
+    <!-- Seccion Evaluacion Heuristica -->
     <div class="heuristica">
         <div class="heuristicatitle">Evaluación Heurística</div>
         <div class="heuristicacont">
@@ -68,15 +79,19 @@
     </div>
     <div class="separador2"></div>
 
+    <!-- Carrusel Practicas profesionales -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <!-- Imagenes del carrusel -->
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide6.png') }}"
                     alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
+                    <!-- Titulo del carrusel -->
                     <div class="titulonosotros">
                     <p class="titulonosotrostxt">Prácticas Profesionales </p>
                     </div>
+                    <!-- Contenido del carrusel -->
                     <div class="contenidonosotros">
                     <p class="contenidonosotrostxt">Ofrece a los estudiantes la oportunidad de aplicar los conocimientos adquiridos en el aula en un entorno laboral real. Durante su participación, los practicantes colaboran en proyectos de usabilidad y diseño de experiencia de usuario, desarrollando habilidades técnicas y analíticas clave.</p>
                     </div>
@@ -84,8 +99,10 @@
             </div>
         </div>
     </div>
+    <!-- Termina carrusel Practicas profesionales -->
 
     <div class="separador3"></div>
+    <!-- Seccion Requisitos -->
     <div class="requisitosp">'
         <div class="requisitosptitle">Requisitos</div>
     </div>
@@ -95,15 +112,19 @@
     </div>
     <div class="separador2"></div>
 
+    <!-- Carrusel Servicio Social -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <!-- Imagenes del carrusel -->
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide7.jpeg') }}"
                     alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
+                    <!-- Titulo del carrusel -->
                     <div class="titulonosotros">
                     <p class="titulonosotrostxt">Servicio Social </p>
                     </div>
+                    <!-- Contenido del carrusel -->
                     <div class="contenidonosotros">
                     <p class="contenidonosotrostxt">UsaLab ofrece a los estudiantes la oportunidad de contribuir activamente en proyectos que impactan directamente en la comunidad y en el ámbito de la usabilidad y el diseño web. Este programa está diseñado para integrar a los estudiantes en el desarrollo y mejora de interfaces y experiencias digitales.</p>
                     </div>
@@ -111,8 +132,10 @@
             </div>
         </div>
     </div>
+    <!-- Termina carrusel Servicio Social -->
     
     <div class="separador3"></div>
+    <!-- Seccion requisitos Servicio Social -->
     <div class="requisitoss">
         <div class="requisitosstitle">Requisitos</div>
         <div class="requisitosscont">

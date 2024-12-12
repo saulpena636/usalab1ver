@@ -1,77 +1,9 @@
-/*********************************************************principal****************************************************************/
-.titulousalab{
-    display: flex;
-    width: 1152px;
-    height: 136px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-bottom: -384px;
-    animation: titulousalab 1.5s forwards;
-}
-
-@keyframes titulousalab {
-    to {
-        margin-bottom: 104px;
-    }
-}
-
-.img1{
-    background: rgba(0, 0, 0, 0.30);
-    filter: brightness(50%);
-}
-
-.titulousalabtxt {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-    font-family: Montserrat;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 40px;
-    letter-spacing: 0.8px;
-}
-
-.contenidousalab {
-    width: 1728px;
-    height: 248px;
-    display: flex;
-    margin-bottom: -288px;
-    margin-left: -260px;
-    flex-shrink: 0;
-    background: rgba(192, 192, 192, 0.30);
-    justify-content: center;
-    align-items: center;
-    animation: contenidousalab 1.5s forwards;
-}
-
-@keyframes contenidousalab {
-    to{
-        margin-bottom: -40px;
-    }
-    
-}
-
-.contenidousalabtxt {
-    width: 1392px;
-    height: 152px;
-    flex-shrink: 0;
-    color: #FFFCFC;
-    text-align: justify;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0.32px;
-}
-
 .separador2 {
     height: 160px;
     width: 100%;
 }
 
+/*******************Principal de tarjetas*******************/
 .cards-container {
     display: flex;
     justify-content: center;
@@ -146,6 +78,7 @@
     font-size: 24px;
 }
 
+/*******************Fondos de las tarjetas prinicipales********************/
 #nuestros-servicios-card {
     background: url("../photos/nuestros-servicios.png") lightgray 50% / cover no-repeat;
 }
@@ -190,16 +123,18 @@
     top: 88px;
 }
 
+/************************Ultimos eventos****************************/
+/*****************Fondo Ultimos eventos****************/
 .fondo-azul {
     width: 1728px;
     height: 912px;
     flex-shrink: 0;
-    background: #58A3C1;
+    background: #F9F9F9;
     margin-top: -400px;
 }
 
 .ultimoseventostxt {
-    color: #FFF;
+    color: #000;
     width: 246px;
     margin-top: -159px;
     margin-left: 273px;
@@ -212,6 +147,7 @@
     letter-spacing: 0.55px;
 }
 
+/************ Contenedor de los eventos ***************/
 .eventosContainer {
     width: 1010px;
     height: 520px;
@@ -225,13 +161,13 @@
 
 .eventosContainer::-webkit-scrollbar {
     display: none;
-    /* Oculta la barra deslizante en Chrome, Safari y Edge */
 }
 
 .scroll-container {
     display: inline-block;
 }
 
+/************* Tarjetas ultimos eventos *************/
 .event-card {
     display: flex;
     width: 392px;
@@ -242,6 +178,7 @@
     justify-content: center;
 }
 
+/***** Titulo de tarjeta ******/
 .title-event-card {
     color: #FFF;
     font-family: Montserrat;
@@ -252,6 +189,7 @@
     letter-spacing: 0.4px;
 }
 
+/*****Contenido de la tarjeta*****/
 .text-event-card {
     color: #FFF;
     font-family: Montserrat;
@@ -263,6 +201,7 @@
     letter-spacing: 0.2px;
 }
 
+/****** Contenido de la tarjetas ******/
 .content-event-card {
     width: 328px;
     height: 120px;
@@ -293,6 +232,145 @@
     background: url("../photos/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
 }
 
+/****** Bienvenidos a UsaLab ******/
+/* Contenedor de la sección: "Bienvenidos a UsaLab"*/
+.bienvenidos-a-usalab-container {
+    margin-top: 86px;
+    height: 442px;
+    width: 1728px;
+}
+
+/* Titulo "Bienvenidos a UsaLab" */
+.bienvenidos-a-usalab-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Bienvenidos a UsaLab" */
+.content-bienvenidos-a-usalab {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../photos/bienvenidos-a-usalab.png") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Bienvenidos a UsaLab" */
+.bienvenidos-a-usalab-text {
+    margin-top: 53px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Nuestra Historia ******/
+/* Contenedor de la sección: "Nuestra Historia"*/
+.nuestra-historia-container {
+    margin-top: 45px;
+    height: 426px;
+    width: 1728px;
+}
+
+/* Titulo "Nuestra Historia" */
+.nuestra-historia-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Nuestra Historia" */
+.content-nuestra-historia {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../photos/nuestra-historia.png") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Nuestra Historia" */
+.nuestra-historia-text {
+    margin-top: 39px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Experiencias ******/
+/* Contenedor de la sección: "Experiencias"*/
+.experiencias-container {
+    margin-top: 53px;
+    height: 434px;
+    width: 1728px;
+}
+
+/* Titulo "Experiencias" */
+.experiencias-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Experiencias" */
+.content-experiencias {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../photos/experiencias.jpg") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Experiencias" */
+.experiencias-text {
+    margin-top: 38px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Desarrollo comercial *****/
 .desarrollocomercial {
     margin-top: 160px;
     width: 1728px;
@@ -305,6 +383,7 @@
     align-items: center;
 }
 
+/***** Hover del boton de desarrollo comercial *****/
 .desarrollocomercial:hover .card-button {
     width: 308.7px;
     height: 66px;
@@ -313,6 +392,7 @@
     font-size: 24px;
 }
 
+/****** Fondo mundo "desarrollo comercial" *****/
 .imagenmundo1 {
     width: 1728px;
     height: 544px;
@@ -321,6 +401,7 @@
     flex-shrink: 0;
 }
 
+/**** Titulo "Desarrollo comercial" ****/
 .desarrollotitulo {
     display: flex;
     height: 48px;
@@ -337,6 +418,7 @@
     line-height: normal;
 }
 
+/**** Contenido "Desarrollo comercial" ****/
 .desarrollocontenido {
     width: 1264px;
     height: 112px;
@@ -357,12 +439,14 @@
     width: 100%;
 }
 
+/****Seccion Clientes***/
 .clientesdiv {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+/***** Titulo "Clientes" ****/
 .clientes-title {
     width: 240px;
     height: 56px;
@@ -381,6 +465,7 @@
     width: 100%;
 }
 
+/***** Contenido imagenes "Clientes" *****/
 .clientesContainer {
     width: 100%;
     display: flex;
@@ -394,6 +479,7 @@
     position: relative;
 }
 
+/***** Imagenes Clientes *****/
 .img-wrapper {
     width: 100%;
     height: 100%;
@@ -408,12 +494,14 @@
     }
 }
 
+/***** Contenedor Hablanos *****/
 .hablanosContainer {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+/***** Contenedor Equipo de desarrollo *****/
 .equipoCont {
     display: flex;
     flex-direction: column;
@@ -422,6 +510,7 @@
     gap: 80px;
 }
 
+/***** Titulo equipo de desarrollo *****/
 .equipotitle {
     display: flex;
     width: 448px;
@@ -450,6 +539,7 @@
     align-items: center;
 }
 
+/***** Nombres equipo de desarrollo *****/
 .nome1 {
     width: 336px;
     height: 55.568px;
@@ -476,72 +566,6 @@
     line-height: normal;
 }
 
-.hablanos {
-    display: flex;
-    width: 1185px;
-    height: 360px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    flex-shrink: 0;
-}
-
-.hablanos-title {
-    width: 707px;
-    height: 56px;
-    flex-shrink: 0;
-    color: #06052D;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.hablanos-text {
-    width: 1185px;
-    height: 80px;
-    flex-shrink: 0;
-    color: #000;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hablanos-button {
-    width: 272px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: var(--Corner-Full, 1000px);
-    background: #06052D;
-    display: flex;
-    /* width: 176px;
-    height: 32px; */
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    transition: width 1.0s ease, height 1.0s ease, font-size 1.0s ease;
-}
-
-.hablanos:hover .hablanos-button {
-    width: 308.7px;
-    height: 66px;
-    font-size: 36px;
-}
-
 .separador5 {
     height: 80px;
     width: 100%;
@@ -558,6 +582,7 @@
     justify-content: center;
 }
 
+/***** Linea separatoria *****/
 .line {
     width: 1418px;
     height: 0px;
