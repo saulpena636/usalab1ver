@@ -283,9 +283,5 @@
     <x-hablanos />
     <div class="separador2"></div>
 
-    <script>
-        declare var $;
-        $('.carousel').carousel()
-    </script>
 
 @endsection

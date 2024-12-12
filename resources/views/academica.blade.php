@@ -31,7 +31,7 @@ Formacion Académica
     <!-- Termina carrusel de la pagina principal -->
     <div class="separador2"></div>
     <!-- Seccion pruebas de Usabilidad -->
-    <div class="pruebausalab">
+    <div class="pruebausalab" id="pruebausalab">
         <div class="pruebausalabtxt">
             <div class="linea1"></div>
             <div class="pruebausalabtitle">Pruebas de Usabilidad</div>
@@ -74,11 +74,11 @@ Formacion Académica
             <div class="heuristicap">Es un método experto que analiza la interfaz de un producto o sistema mediante el uso de principios de usabilidad, llamados heurísticas. Este enfoque permite a especialistas en usabilidad identificar problemas de diseño de manera rápida y eficaz, sin la necesidad de pruebas directas con usuarios. Los evaluadores examinan la interfaz en busca de violaciones a estos principios clave, proporcionando recomendaciones para optimizar la experiencia del usuario y mejorar la interacción, todo antes de que el producto llegue a manos de los usuarios finales.</div>
         </div>
     </div>
-    <div class="separador2"></div>
 
     <!-- Carrusel Practicas profesionales -->
+     <div class="practicaprofesional" id="practicas"></div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="practicas">
             <div class="carousel-item active">
                 <!-- Imagenes del carrusel -->
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide6.png') }}"
@@ -111,7 +111,7 @@ Formacion Académica
 
     <!-- Carrusel Servicio Social -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="servicio">
             <div class="carousel-item active">
                 <!-- Imagenes del carrusel -->
                 <img class="d-block w-100 img1" src="{{ asset('photos/slide7.jpeg') }}"

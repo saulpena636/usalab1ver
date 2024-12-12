@@ -120,7 +120,7 @@
 
           <!-- Seccion Investigaciones -->
           <div class="investigaciones">
-            <div class="navbartxt">Investigaciones</div>
+            <div onclick="window.location.href='{{ url('/investigaciones') }}'" class="navbartxt">Investigaciones</div>
             <div class="investigacionesCont">
               <div class="incontent">
                 <div class="navbartxt">Proyectos Actuales</div>
@@ -142,13 +142,13 @@
           <div class="formacion">
             <div onclick="window.location.href='{{ url('/academica') }}'" class="navbartxt">Formacion Académica</div>
             <div class="formacionCont">
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#pruebausalab') }}'" class="facontent">
                 <div class="navbartxt">Pruebas de Usabilidad</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#practicas') }}'" class="facontent">
                 <div class="navbartxt">Practicas Profesionales</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#servicio') }}'" class="facontent">
                 <div class="navbartxt">Servicio Social</div>
               </div>
               <div class="facontent">
