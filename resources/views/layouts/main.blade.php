@@ -145,15 +145,15 @@
 
           <!-- Seccion formacion academica -->
           <div class="formacion">
-            <div class="navbartxt">Formacion Académica</div>
+            <div onclick="window.location.href='{{ url('/academica') }}'" class="navbartxt">Formacion Académica</div>
             <div class="formacionCont">
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#pruebausalab') }}'" class="facontent">
                 <div class="navbartxt">Pruebas de Usabilidad</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#practicas') }}'" class="facontent">
                 <div class="navbartxt">Practicas Profesionales</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#servicio') }}'" class="facontent">
                 <div class="navbartxt">Servicio Social</div>
               </div>
               <div class="facontent">
